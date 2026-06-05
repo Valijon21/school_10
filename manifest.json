@@ -1,0 +1,17 @@
+{
+  "name": "10-sonli umumta'lim maktabi",
+  "short_name": "10-Maktab",
+  "description": "10-sonli umumta'lim maktabi - Kelajakni biz bilan birga quring",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

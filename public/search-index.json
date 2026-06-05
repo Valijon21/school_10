@@ -1,0 +1,15 @@
+[
+  {"url": "index", "title": "Bosh sahifa - 10-Maktab", "description": "10-sonli Chirchiq umumta'lim maktabining rasmiy veb-sayti", "path": "Bosh sahifa"},
+  {"url": "about/about", "title": "Maktab haqida - 10-Maktab", "description": "10-maktab haqida umumiy ma'lumot, tarix va missiya", "path": "Maktab haqida / Umumiy ma'lumot"},
+  {"url": "about/history", "title": "Maktab tarixi - 10-Maktab", "description": "10-maktabning tashkil topish tarixi va rivojlanish bosqichlari", "path": "Maktab haqida / Tarix"},
+  {"url": "about/mission", "title": "Missiya - 10-Maktab", "description": "10-maktabning maqsad va vazifalari", "path": "Maktab haqida / Missiya"},
+  {"url": "about/management", "title": "Rahbariyat - 10-Maktab", "description": "10-maktab rahbariyati va ma'muriyati", "path": "Maktab haqida / Rahbariyat"},
+  {"url": "teachers/teachers", "title": "O'qituvchilar - 10-Maktab", "description": "10-maktab o'qituvchilari haqida ma'lumot", "path": "O'qituvchilar"},
+  {"url": "teachers/former-teachers", "title": "Sobiq o'qituvchilar - 10-Maktab", "description": "10-maktabda faoliyat yuritgan sobiq o'qituvchilar", "path": "O'qituvchilar / Sobiq o'qituvchilar"},
+  {"url": "academics/schedule", "title": "Dars jadvali - 10-Maktab", "description": "10-maktab dars jadvali va qo'ng'iroq vaqtlari", "path": "Akademik / Dars jadvali"},
+  {"url": "news/news", "title": "Yangiliklar - 10-Maktab", "description": "10-maktab yangiliklari va e'lonlari", "path": "Yangiliklar"},
+  {"url": "news/events", "title": "Tadbirlar - 10-Maktab", "description": "10-maktab tadbirlari", "path": "Yangiliklar / Tadbirlar"},
+  {"url": "admission/admission", "title": "Qabul - 10-Maktab", "description": "10-maktabga hujjat topshirish va qabul qilish", "path": "Qabul"},
+  {"url": "contact/contact", "title": "Bog'lanish - 10-Maktab", "description": "10-maktab bilan bog'lanish ma'lumotlari", "path": "Bog'lanish"},
+  {"url": "gallery/gallery", "title": "Galereya - 10-Maktab", "description": "10-maktab fotogalereyasi", "path": "Galereya"}
+]

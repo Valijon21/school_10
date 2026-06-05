@@ -1,0 +1,14 @@
+{
+  "name": "10-maktab",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "nuxt": "^4.4.7"
+  }
+}

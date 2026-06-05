@@ -1,0 +1,175 @@
+{
+  "bugs": [
+    {
+      "id": "BUG-001",
+      "title": "Undefined variable 'color' in index.html inline script",
+      "description": "Inline script 'Maktab hayotidan lavhalar' section used undefined 'color' variable instead of 'style.bg', causing ReferenceError and breaking the dynamic render.",
+      "severity": "critical",
+      "status": "fixed",
+      "found_at": "2026-06-01",
+      "fixed_at": "2026-06-01",
+      "file": "index.html:162",
+      "fix": "Replaced 'color' with 'style.bg'"
+    },
+    {
+      "id": "BUG-002",
+      "title": "search.js 'depth' variable out of scope in performSearch()",
+      "description": "'var depth' declared inside initSearch() (function scope) but used in performSearch() — undefined reference at runtime.",
+      "severity": "high",
+      "status": "fixed",
+      "found_at": "2026-06-01",
+      "fixed_at": "2026-06-01",
+      "file": "assets/js/search.js",
+      "fix": "Moved 'searchDepth' to module-level variable"
+    },
+    {
+      "id": "BUG-003",
+      "title": "ES modules (type=\"module\") blocked on file:// protocol",
+      "description": "All scripts used type=\"module\" with import/export syntax. Browsers block module scripts on file:// due to CORS — site completely broken when opened locally.",
+      "severity": "critical",
+      "status": "fixed",
+      "found_at": "2026-06-01",
+      "fixed_at": "2026-06-01",
+      "file": "components/scripts.html + 5 inline scripts",
+      "fix": "Migrated all module scripts to regular <script defer> with window globals"
+    },
+    {
+      "id": "BUG-004",
+      "title": "search.js missing null guard for toggleBtn",
+      "description": "initSearch() checked modal/input/results but NOT toggleBtn. Missing element would cause addEventListener crash.",
+      "severity": "medium",
+      "status": "fixed",
+      "found_at": "2026-06-01",
+      "fixed_at": "2026-06-01",
+      "file": "assets/js/search.js:12",
+      "fix": "Added '!toggleBtn' to early return check"
+    },
+    {
+      "id": "BUG-005",
+      "title": "search.js no null guard for closeBtn",
+      "description": "closeBtn.addEventListener called without checking if closeBtn exists.",
+      "severity": "medium",
+      "status": "fixed",
+      "found_at": "2026-06-01",
+      "fixed_at": "2026-06-01",
+      "file": "assets/js/search.js:22",
+      "fix": "Added 'if (closeBtn)' guard"
+    },
+    {
+      "id": "BUG-006",
+      "title": "teacher-single.html missing element guards",
+      "description": "getElementById calls could return null if element missing — no null checks, causes TypeError cascade.",
+      "severity": "medium",
+      "status": "fixed",
+      "found_at": "2026-06-01",
+      "fixed_at": "2026-06-01",
+      "file": "pages/teachers/teacher-single.html",
+      "fix": "Added per-element null checks"
+    },
+    {
+      "id": "BUG-007",
+      "title": "news-single.html missing element guards",
+      "description": "Same issue — direct getElementById calls without null verification.",
+      "severity": "medium",
+      "status": "fixed",
+      "found_at": "2026-06-01",
+      "fixed_at": "2026-06-01",
+      "file": "pages/news/news-single.html",
+      "fix": "Added per-element null checks and try/catch"
+    },
+    {
+      "id": "BUG-008",
+      "title": "Breakpoint gap: CSS 992px vs Tailwind lg: 1024px (31px dead zone)",
+      "description": "Custom CSS uses @media (max-width: 992px) but Tailwind's lg: breakpoint is 1024px. At 993-1023px, mobile nav shows but header height stays desktop-sized.",
+      "severity": "medium",
+      "status": "fixed",
+      "found_at": "2026-06-01",
+      "fixed_at": "2026-06-01",
+      "file": "assets/css/layout.css:183, components.css:347",
+      "fix": "Changed max-width: 992px → max-width: 1023px to match Tailwind breakpoint"
+    },
+    {
+      "id": "BUG-009",
+      "title": "scrolled: Tailwind variant is not registered — dead code",
+      "description": "Header uses scrolled:h-[70px] scrolled:bg-white scrolled:shadow-lg, but 'scrolled:' is not a registered Tailwind variant. JIT ignores these classes. CSS fallback #main-header.scrolled already handles styling.",
+      "severity": "low",
+      "status": "fixed",
+      "found_at": "2026-06-01",
+      "fixed_at": "2026-06-01",
+      "file": "components/header.html:2",
+      "fix": "Removed dead scrolled:* Tailwind classes (CSS handles scrolled state)"
+    },
+    {
+      "id": "BUG-010",
+      "title": "CTA button hidden on tablet (768-1023px)",
+      "description": "Qabul 2026 button uses hidden lg:inline-block, so it disappears between 768-1023px (md range) with no alternative CTA visible.",
+      "severity": "low",
+      "status": "fixed",
+      "found_at": "2026-06-01",
+      "fixed_at": "2026-06-01",
+      "file": "components/header.html:53",
+      "fix": "Changed hidden lg:inline-block → hidden md:inline-block"
+    },
+    {
+      "id": "BUG-011",
+      "title": "Index page badge -right-10 causes horizontal overflow",
+      "description": "Decorative 'Top Reyting' badge positioned at -right-10 extends 2.5rem beyond parent container, hidden only by body overflow-x:hidden band-aid.",
+      "severity": "medium",
+      "status": "fixed",
+      "found_at": "2026-06-01",
+      "fixed_at": "2026-06-01",
+      "file": "index.html:87",
+      "fix": "Changed -right-10 → right-0, added overflow-hidden to parent div"
+    },
+    {
+      "id": "BUG-012",
+      "title": "About page badge -left-10 + text-nowrap causes horizontal overflow",
+      "description": "TOP-10 badge at -left-10 with text-nowrap text extends beyond viewport left edge on narrow screens.",
+      "severity": "medium",
+      "status": "fixed",
+      "found_at": "2026-06-01",
+      "fixed_at": "2026-06-01",
+      "file": "pages/about/about.html:75-78",
+      "fix": "Changed -left-10 → left-0, removed text-nowrap, added overflow-hidden to parent"
+    },
+    {
+      "id": "BUG-013",
+      "title": "About page image rotate-2 + fixed h-[650px] causes overflow",
+      "description": "Rotated image with fixed 650px height overflows on mobile (viewport < 650px) and rotation extends corners beyond container.",
+      "severity": "medium",
+      "status": "fixed",
+      "found_at": "2026-06-01",
+      "fixed_at": "2026-06-01",
+      "file": "pages/about/about.html:67",
+      "fix": "Added responsive height (h-[300px] md:h-[450px] lg:h-[650px]), reduced rotate-2 → rotate-1, added overflow-hidden to parent"
+    },
+    {
+      "id": "BUG-014",
+      "title": "Teachers filter has redundant overflow-x-auto with flex-wrap",
+      "description": "overflow-x-auto on flex-wrap container is unnecessary — buttons already wrap to next line.",
+      "severity": "low",
+      "status": "fixed",
+      "found_at": "2026-06-01",
+      "fixed_at": "2026-06-01",
+      "file": "pages/teachers/teachers.html:26",
+      "fix": "Removed overflow-x-auto"
+    },
+    {
+      "id": "BUG-015",
+      "title": "Schedule swipe hint breakpoint mismatch",
+      "description": "Swipe hint hidden at lg: (1024px) but table needs scrolling below 1000px — 24px gap where hint is hidden but scrolling needed.",
+      "severity": "low",
+      "status": "fixed",
+      "found_at": "2026-06-01",
+      "fixed_at": "2026-06-01",
+      "file": "pages/academics/schedule.html:95",
+      "fix": "Changed lg:hidden → xl:hidden to match table's 1000px min-width"
+    }
+  ],
+  "_meta": {
+    "generated_at": "2026-06-01T00:00:00Z",
+    "total_bugs": 15,
+    "fixed": 15,
+    "open": 0
+  }
+}
