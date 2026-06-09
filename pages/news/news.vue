@@ -6,6 +6,10 @@ useHead({
   title: computed(() => `${t('news.hero.title')} ${t('news.hero.highlight')} | 10-MAKTAB`),
   meta: [
     { name: 'description', content: t('news.hero.subtitle') },
+    { property: 'og:title', content: computed(() => `${t('news.hero.title')} ${t('news.hero.highlight')} | 10-MAKTAB`) },
+    { property: 'og:description', content: t('news.hero.subtitle') },
+    { name: 'twitter:title', content: computed(() => `${t('news.hero.title')} ${t('news.hero.highlight')} | 10-MAKTAB`) },
+    { name: 'twitter:description', content: t('news.hero.subtitle') },
   ],
 })
 </script>

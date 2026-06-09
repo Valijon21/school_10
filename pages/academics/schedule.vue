@@ -151,6 +151,10 @@ useHead({
   title: computed(() => `${t('schedule.hero.title')} ${t('schedule.hero.highlight')} | 10-MAKTAB`),
   meta: [
     { name: 'description', content: t('schedule.hero.subtitle') },
+    { property: 'og:title', content: computed(() => `${t('schedule.hero.title')} ${t('schedule.hero.highlight')} | 10-MAKTAB`) },
+    { property: 'og:description', content: t('schedule.hero.subtitle') },
+    { name: 'twitter:title', content: computed(() => `${t('schedule.hero.title')} ${t('schedule.hero.highlight')} | 10-MAKTAB`) },
+    { name: 'twitter:description', content: t('schedule.hero.subtitle') },
   ],
 })
 </script>

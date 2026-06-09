@@ -196,6 +196,10 @@ useHead({
   title: t('site.name') + ' - ' + t('about.hero.subtitle'),
   meta: [
     { name: 'description', content: t('home.hero.subtitle') },
+    { property: 'og:title', content: t('site.name') + ' - ' + t('about.hero.subtitle') },
+    { property: 'og:description', content: t('home.hero.subtitle') },
+    { name: 'twitter:title', content: t('site.name') + ' - ' + t('about.hero.subtitle') },
+    { name: 'twitter:description', content: t('home.hero.subtitle') },
   ],
 })
 </script>

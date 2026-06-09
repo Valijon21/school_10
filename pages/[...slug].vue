@@ -37,6 +37,10 @@ useHead({
   title: computed(() => `${t('notFound.title')} | 10-MAKTAB`),
   meta: [
     { name: 'description', content: t('notFound.description') },
+    { property: 'og:title', content: computed(() => `${t('notFound.title')} | 10-MAKTAB`) },
+    { property: 'og:description', content: t('notFound.description') },
+    { name: 'twitter:title', content: computed(() => `${t('notFound.title')} | 10-MAKTAB`) },
+    { name: 'twitter:description', content: t('notFound.description') },
     { name: 'robots', content: 'noindex' },
   ],
 })

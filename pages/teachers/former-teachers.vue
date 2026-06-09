@@ -72,6 +72,10 @@ useHead({
   title: computed(() => `${t('former.hero.title')} ${t('former.hero.highlight')} | 10-MAKTAB`),
   meta: [
     { name: 'description', content: t('former.hero.subtitle') },
+    { property: 'og:title', content: computed(() => `${t('former.hero.title')} ${t('former.hero.highlight')} | 10-MAKTAB`) },
+    { property: 'og:description', content: t('former.hero.subtitle') },
+    { name: 'twitter:title', content: computed(() => `${t('former.hero.title')} ${t('former.hero.highlight')} | 10-MAKTAB`) },
+    { name: 'twitter:description', content: t('former.hero.subtitle') },
   ],
 })
 </script>

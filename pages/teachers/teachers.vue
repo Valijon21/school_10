@@ -44,6 +44,10 @@ useHead({
   title: computed(() => `${t('teachers.hero.title')} | 10-MAKTAB`),
   meta: [
     { name: 'description', content: t('teachers.hero.subtitle') },
+    { property: 'og:title', content: computed(() => `${t('teachers.hero.title')} | 10-MAKTAB`) },
+    { property: 'og:description', content: t('teachers.hero.subtitle') },
+    { name: 'twitter:title', content: computed(() => `${t('teachers.hero.title')} | 10-MAKTAB`) },
+    { name: 'twitter:description', content: t('teachers.hero.subtitle') },
   ],
 })
 </script>

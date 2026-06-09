@@ -19,6 +19,10 @@ useHead({
   title: computed(() => item.value ? `${item.value.title} | 10-MAKTAB` : `${t('news.hero.title')} ${t('news.hero.highlight')} | 10-MAKTAB`),
   meta: computed(() => item.value ? [
     { name: 'description', content: `${item.value.title}. ${item.value.content.substring(0, 120)}` },
+    { property: 'og:title', content: `${item.value.title} | 10-MAKTAB` },
+    { property: 'og:description', content: `${item.value.content.substring(0, 160)}` },
+    { name: 'twitter:title', content: `${item.value.title} | 10-MAKTAB` },
+    { name: 'twitter:description', content: `${item.value.content.substring(0, 160)}` },
   ] : []),
 })
 </script>

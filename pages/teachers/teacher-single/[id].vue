@@ -15,6 +15,10 @@ useHead({
   title: computed(() => teacher.value ? `${teacher.value.name} | 10-MAKTAB` : `${t('single.hero.title')} ${t('single.hero.highlight')} | 10-MAKTAB`),
   meta: computed(() => teacher.value ? [
     { name: 'description', content: `${teacher.value.name} - ${teacher.value.subject} ${t('teachers.subjectSuffix')}. ${teacher.value.experience}.` },
+    { property: 'og:title', content: `${teacher.value.name} | 10-MAKTAB` },
+    { property: 'og:description', content: `${teacher.value.name} - ${teacher.value.subject} ${t('teachers.subjectSuffix')}. ${teacher.value.experience}.` },
+    { name: 'twitter:title', content: `${teacher.value.name} | 10-MAKTAB` },
+    { name: 'twitter:description', content: `${teacher.value.name} - ${teacher.value.subject} ${t('teachers.subjectSuffix')}. ${teacher.value.experience}.` },
   ] : []),
 })
 </script>
