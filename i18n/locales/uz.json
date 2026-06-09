@@ -1,0 +1,455 @@
+{
+  "site": {
+    "name": "10-MAKTAB",
+    "tagline": "10-sonli umumta'lim maktabi — Chirchiq shahridagi eng ilg'or ta'lim muassasalaridan biri."
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Maktab haqida",
+    "aboutGeneral": "Umumiy ma'lumot",
+    "aboutHistory": "Tarix",
+    "aboutMission": "Missiya",
+    "aboutManagement": "Rahbariyat",
+    "teachers": "O'qituvchilar",
+    "allTeachers": "Barcha o'qituvchilar",
+    "formerTeachers": "Sobiq o'qituvchilar",
+    "schedule": "Dars jadvali",
+    "news": "Yangiliklar",
+    "admission": "Qabul 2026",
+    "admissionShort": "Qabul"
+  },
+  "actions": {
+    "search": "Qidiruv",
+    "close": "Yopish",
+    "backToTop": "Tepaga chiqish",
+    "toggleTheme": "Tema almashtirish",
+    "mobileMenu": "Mobil menyu",
+    "skipToContent": "Asosiy kontentga o'tish",
+    "searchPlaceholder": "Sahifalardan qidirish..."
+  },
+  "footer": {
+    "pages": "Sahifalar",
+    "academic": "O'quv bo'limi",
+    "contact": "Bog'lanish",
+    "copyright": "© 2026 10-sonli umumta'lim maktabi. Barcha huquqlar himoyalangan.",
+    "address": "Toshkent viloyati, Chirchiq shahri"
+  },
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "error": "Xatolik yuz berdi",
+    "retry": "Qayta urinish",
+    "readMore": "Batafsil",
+    "viewAll": "Barchasini ko'rish",
+    "noResults": "Hech narsa topilmadi"
+  },
+  "home": {
+    "hero": {
+      "alt": "Maktab binosi",
+      "title": "Kelajakni biz bilan",
+      "highlight": "birga quring",
+      "subtitle": "10-sonli umumta'lim maktabi - bu erda biz har bir o'quvchining individual qobiliyatlarini rivojlantiramiz va ularni muvaffaqiyatli kelajakka tayyorlaymiz.",
+      "details": "Batafsil ma'lumot",
+      "apply": "Hujjat topshirish"
+    },
+    "stats": {
+      "students": "O'quvchilar",
+      "teachers": "O'qituvchilar",
+      "achievements": "Yutuqlar",
+      "classrooms": "Sinfxonalar"
+    },
+    "news": {
+      "badge": "Yangiliklar",
+      "title": "Maktab hayotidan",
+      "highlight": "lavhalar",
+      "viewAll": "Barcha yangiliklar"
+    },
+    "features": {
+      "badge": "Biz haqimizda",
+      "title": "Nima uchun aynan",
+      "highlight": "bizning maktab?",
+      "ratingTitle": "Top Reyting",
+      "ratingSubtitle": "Viloyatda 1-o'rin",
+      "tech": {
+        "title": "Zamonaviy texnologiyalar",
+        "desc": "Har bir sinfxona interaktiv doskalar va yuqori tezlikdagi internet bilan ta'minlangan."
+      },
+      "teachers": {
+        "title": "Malakali ustozlar",
+        "desc": "Bizning o'qituvchilarimiz o'z fanining ustalari va doimiy mahorat oshiruvchi mutaxassislardir."
+      },
+      "clubs": {
+        "title": "Sinfdan tashqari to'garaklar",
+        "desc": "Sport, san'at va IT yo'nalishlarida 20 dan ortiq bepul to'garaklar mavjud."
+      }
+    },
+    "management": {
+      "badge": "Maktab rahbariyati",
+      "title": "Bizning",
+      "highlight": "rahbarlar",
+      "linkText": "Batafsil ma'lumot",
+      "directorBadge": "Direktor",
+      "directorLabel": "Maktab Direktori",
+      "directorName": "Eshmatov Toshmat G'ulomovich",
+      "directorQuote": "\"Ta'lim - bu hayotga tayyorgarlik emas, ta'limning o'zi hayotdir. Bizning maqsadimiz har bir o'quvchining ichki salohiyatini yuzaga chiqarish va ularga yorqin kelajak poydevorini qurishda ko'maklashishdir.\"",
+      "workTime": "Dushanba–Juma, 09:00–17:00",
+      "phone": "+998 (71) 123-45-67",
+      "viewMore": "Batafsil ko'rish",
+      "readMore": "Batafsil"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Maktabimiz Haqida",
+      "highlight": "Umumiy Ma'lumot",
+      "subtitle": "Sifatli ta'lim va ma'naviy tarbiya maskani."
+    },
+    "badge": "Bizning maqsad",
+    "title": "Kelajak sari",
+    "highlight": "birinchi qadam",
+    "p1": "10-maktab 1990-yilda tashkil etilgan bo'lib, o'shandan beri minglab o'quvchilarga sifatli ta'lim berib kelmoqda. Bizning maktab o'zining yuqori natijalari va zamonaviy o'quv dasturlari bilan faxrlanadi.",
+    "p2": "Biz nafaqat bilim, balki o'quvchilarning iqtidorini shakllantirish, ularni vatanparvarlik ruhida tarbiyalashni asosiy maqsadimiz qilib belgilaganmiz.",
+    "stats": {
+      "experience": "30+ yillik",
+      "experienceLabel": "Akademik Tajriba",
+      "graduates": "1200+",
+      "graduatesLabel": "Muvaffaqiyatli Bitiruvchilar"
+    },
+    "ranking": {
+      "label": "Eng yaxshi maktablar ro'yxatida"
+    },
+    "nav": {
+      "badge": "Navigatsiya",
+      "title": "Batafsil ma'lumotlar",
+      "historyTitle": "Maktab tarixi",
+      "historyDesc": "O'tmishdan bugungacha bo'lgan shonli yo'limiz va muvaffaqiyatlarimiz haqida.",
+      "missionTitle": "Missiya va qadriyatlar",
+      "missionDesc": "Biz nimaga intilamiz, qanday tamoyillar asosida ishlaymiz va nimalarni qadrlaymiz.",
+      "managementTitle": "Rahbariyat",
+      "managementDesc": "Maktabimizning boshqaruv jamoasi va ular bilan doimiy aloqa o'rnatish imkoniyatlari."
+    }
+  },
+  "history": {
+    "hero": {
+      "title": "Maktabimiz",
+      "highlight": "tarixi",
+      "subtitle": "Bizning 30 yillik muvaffaqiyat yo'limiz va yutuqlarimiz."
+    },
+    "timeline": {
+      "1990": {
+        "title": "Tashkil topishi",
+        "desc": "Maktabimiz o'zining birinchi o'quvchilarini qabul qildi. O'sha paytda atigi 10 ta sinf xonasi bor edi va ta'lim jarayoni yangi metodikalar bilan boshlangan."
+      },
+      "2005": {
+        "title": "Yangi bino",
+        "desc": "Maktab uchun zamonaviy, 3 qavatli yangi o'quv binosi foydalanishga topshirildi. Bu o'quvchilar sonining ortishiga va sharoitlar yaxshilanishiga xizmat qildi."
+      },
+      "2015": {
+        "title": "Raqamli ta'lim",
+        "desc": "Barcha sinf xonalari interaktiv doskalar va kompyuterlar bilan jihozlandi. Maktabimiz viloyatda birinchilardan bo'lib \"Smart School\" tizimiga o'tdi."
+      },
+      "2024": {
+        "title": "Bugungi kun",
+        "desc": "Hozirgi kunda maktabimizda 1200 dan ortiq o'quvchi tahsil olmoqda. Bizning bitiruvchilar dunyoning nufuzli universitetlarida bilim olmoqdalar."
+      }
+    }
+  },
+  "mission": {
+    "hero": {
+      "title": "Missiya va",
+      "highlight": "Qadriyatlar",
+      "subtitle": "Bizning maqsadimiz va biz amal qiladigan tamoyillar."
+    },
+    "badge": "Bizning oliy maqsadimiz",
+    "title": "Bizning Missiyamiz",
+    "quote": "\"O'quvchilarga nafaqat bilim berish, balki ularni mustaqil fikrlaydigan, mas'uliyatli va zamonaviy dunyo talablariga javob bera oladigan shaxs sifatida kamol toptirish.\"",
+    "values": {
+      "patriotism": {
+        "title": "Vatanparvarlik",
+        "desc": "O'z vatanini sevish va unga xizmat qilish hissini o'quvchilar qalbida uyg'otish.",
+        "hover": "Asosiy tamoyil"
+      },
+      "innovation": {
+        "title": "Innovatsiya",
+        "desc": "Ta'lim jarayonida eng yangi texnologiyalardan va metodikalardan samarali foydalanish.",
+        "hover": "Raqamli kelajak"
+      },
+      "cooperation": {
+        "title": "Hamkorlik",
+        "desc": "O'qituvchi, o'quvchi va ota-onalar o'rtasida mustahkam ishonchli aloqani o'rnatish.",
+        "hover": "Birlikda qudratmiz"
+      }
+    }
+  },
+  "management": {
+    "hero": {
+      "title": "Maktab",
+      "highlight": "Rahbariyati",
+      "subtitle": "Bizning tajribali va fidoyi rahbarlarimiz bilan tanishing."
+    },
+    "director": {
+      "badge": "Maktab Direktori",
+      "name": "Eshmatov Toshmat G'ulomovich",
+      "quote": "\"Ta'lim - bu hayotga tayyorgarlik emas, ta'limning o'zi hayotdir. Bizning maqsadimiz har bir o'quvchining ichki salohiyatini yuzaga chiqarish va ularga yorqin kelajak poydevorini qurishda ko'maklashishdir.\"",
+      "workTime": "Qabul vaqti: Dushanba - Juma, 09:00 - 17:00",
+      "phone": "+998 (71) 123-45-67",
+      "sendMessage": "Xabar yuborish"
+    },
+    "deputies": {
+      "title": "Direktor o'rinbosarlari",
+      "edu": {
+        "name": "Karimova Guli Baxtiyorovna",
+        "role": "O'quv ishlari bo'yicha direktor o'rinbosari",
+        "badge": "O'quv ishlari",
+        "phone": "+998 (90) 111-22-33"
+      },
+      "spiritual": {
+        "name": "Sultonov Alisher Akmalovich",
+        "role": "Ma'naviy-ma'rifiy ishlar bo'yicha o'rinbosari",
+        "badge": "Ma'naviy-ma'rifiy",
+        "phone": "+998 (90) 444-55-66"
+      },
+      "economic": {
+        "name": "Nazarov Bekzod Rustamovich",
+        "role": "Xo'jalik ishlari bo'yicha o'rinbosar",
+        "badge": "Xo'jalik ishlari",
+        "phone": "+998 (90) 777-88-99"
+      },
+      "readMore": "Batafsil"
+    }
+  },
+  "teachers": {
+    "hero": {
+      "title": "Bizning o'qituvchilar",
+      "subtitle": "Maktabimizning tajribali va fidoyi ustozlari bilan tanishing."
+    },
+    "search": {
+      "placeholder": "Ism yoki fan bo'yicha qidiruv..."
+    },
+    "filters": {
+      "all": "Barchasi",
+      "matematika": "Matematika",
+      "ona-tili": "Ona tili",
+      "ingliz-tili": "Ingliz tili",
+      "informatika": "Informatika",
+      "tarix": "Tarix"
+    },
+    "subjectSuffix": "o'qituvchisi"
+  },
+  "former": {
+    "hero": {
+      "title": "Maktabimiz",
+      "highlight": "Faxriylari",
+      "subtitle": "Ko'p yillar davomida maktabimiz rivojiga ulkan hissa qo'shgan ustozlar."
+    },
+    "status": {
+      "retired": "Nafaqada",
+      "honored": "Faxriy"
+    },
+    "years": "yillar"
+  },
+  "single": {
+    "hero": {
+      "title": "Ustoz",
+      "highlight": "Profili",
+      "subtitle": "Bizning ustozlarimiz bilan yaqinroq tanishing."
+    },
+    "viewProfile": "Profilni ko'rish",
+    "email": "Email",
+    "consultation": "Konsultatsiya",
+    "specialty": "Mutaxassisligi:",
+    "achievements": "Yutuqlari:",
+    "experience": "Yillik tajriba",
+    "students": "Muvaffaqiyatli shogirdlar"
+  },
+  "schedule": {
+    "hero": {
+      "title": "Dars",
+      "highlight": "Jadvali",
+      "subtitle": "Sinfingizni tanlang va haftalik dars jadvalingizni ko'ring."
+    },
+    "selectLabel": "Sinfni tanlang:",
+    "print": "Chop etish",
+    "tooltip": "Fan darsi",
+    "scrollHint": "Chapga-o'ngga suring",
+    "time": "Vaqt",
+    "days": {
+      "mon": "Dushanba",
+      "tue": "Seshanba",
+      "wed": "Chorshanba",
+      "thu": "Payshanba",
+      "fri": "Juma",
+      "sat": "Shanba"
+    },
+    "subjects": {
+      "Matematika": "Matematika",
+      "Ona tili": "Ona tili",
+      "Ingliz tili": "Ingliz tili",
+      "Tarix": "Tarix",
+      "Informatika": "Informatika",
+      "Adabiyot": "Adabiyot",
+      "Tarbiya": "Tarbiya",
+      "Sport": "Sport",
+      "Texnologiya": "Texnologiya",
+      "Musiqa": "Musiqa",
+      "Rus tili": "Rus tili",
+      "Biologiya": "Biologiya",
+      "Geografiya": "Geografiya",
+      "Sinf soati": "Sinf soati",
+      "Tasviriy san'at": "Tasviriy san'at",
+      "Botanika": "Botanika",
+      "Fizika": "Fizika",
+      "Algebra": "Algebra",
+      "Geometriya": "Geometriya",
+      "Kimyo": "Kimyo",
+      "Huquq": "Huquq",
+      "Iqtisodiyot": "Iqtisodiyot",
+      "Tadbirkorlik": "Tadbirkorlik",
+      "Astronomiya": "Astronomiya"
+    }
+  },
+  "news": {
+    "hero": {
+      "title": "So'nggi",
+      "highlight": "Yangiliklar",
+      "subtitle": "Maktab hayotidagi eng muhim voqealar bilan tanishing."
+    },
+    "card": {
+      "details": "Batafsil ma'lumot",
+      "view": "Batafsil ko'rish"
+    },
+    "single": {
+      "share": "Ulaqing:",
+      "back": "Orqaga qaytish",
+      "otherNews": "Boshqa Yangiliklar",
+      "viewAll": "Barchasini ko'rish"
+    }
+  },
+  "events": {
+    "hero": {
+      "title": "Maktab",
+      "highlight": "Tadbirlari",
+      "subtitle": "Maktabimizda o'tkazilgan eng qiziqarli tadbirlar bilan tanishing."
+    },
+    "filters": {
+      "all": "Barchasi",
+      "bayram": "Bayram",
+      "sport": "Sport",
+      "madaniy": "Madaniy",
+      "ilmiy": "Ilmiy"
+    }
+  },
+  "admission": {
+    "hero": {
+      "title": "1-sinfga qabul -",
+      "highlight": "2026/2027",
+      "subtitle": "Farzandingiz kelajagi uchun eng to'g'ri va zamonaviy ta'lim maskanini tanlang."
+    },
+    "conditions": {
+      "title": "Qabul shartlari",
+      "1": "Bolaning yoshi kamida 7 yosh bo'lishi lozim.",
+      "2": "To'liq tibbiy ko'rikdan o'tgan bo'lishi shart.",
+      "3": "Tug'ilganlik haqida guvohnoma (asli va nusxasi).",
+      "4": "Ota-onaning doimiy yashash joyi haqida ma'lumot."
+    },
+    "warning": {
+      "title": "Muhim eslatma",
+      "text": "Barcha hujjatlar faqatgina my.maktab.uz yagona portali orqali iyul oyidan boshlab elektron shaklda qabul qilinadi."
+    },
+    "steps": {
+      "title": "Qabul bosqichlari",
+      "1": {
+        "title": "Online ro'yxatdan o'tish",
+        "desc": "Portal orqali shaxsiy ma'lumotlarni kiritish va ariza qoldirish."
+      },
+      "2": {
+        "title": "Maktabdagi suhbat",
+        "desc": "Psixolog va pedagoglar bilan qisqa tanishuv suhbati."
+      },
+      "3": {
+        "title": "Tasdiqlash va qabul",
+        "desc": "Hujjatlar to'liq bo'lsa, SMS xabar orqali tasdiqlash yuboriladi."
+      }
+    },
+    "form": {
+      "title": "Ariza topshirish",
+      "childName": "Farzandingiz ismi",
+      "childSurname": "Farzandingiz familiyasi",
+      "dob": "Tug'ilgan sanasi",
+      "class": "Qaysi sinfga",
+      "parentName": "Ota-onaning F.I.O",
+      "phone": "Telefon raqam",
+      "email": "Email (ixtiyoriy)",
+      "address": "Yashash manzili",
+      "placeholder": {
+        "name": "Ism",
+        "surname": "Familiya",
+        "parentName": "To'liq ismingiz",
+        "phone": "+998 XX XXX-XX-XX",
+        "email": "example{'@'}mail.com",
+        "address": "To'liq manzil",
+        "select": "Tanlang..."
+      },
+      "submit": "Arizani yuborish",
+      "success": "Arizangiz muvaffaqiyatli qabul qilindi! Tez orada siz bilan bog'lanamiz.",
+      "error": "Xatolik yuz berdi. Iltimos, keyinroq urinib ko'ring."
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Biz bilan",
+      "highlight": "bog'laning",
+      "subtitle": "Savollaringiz bo'lsa, xabar qoldiring yoki to'g'ridan-to'g'ri raqamlarimizga qo'ng'iroq qiling."
+    },
+    "form": {
+      "title": "Xabar Yuborish",
+      "name": "To'liq ismingiz",
+      "email": "Email manzilingiz",
+      "message": "Xabar mazmuni",
+      "placeholder": {
+        "name": "Ismingizni kiriting",
+        "email": "example{'@'}mail.com",
+        "message": "Xabaringizni bu yerda yozing..."
+      },
+      "submit": "Xabarni yuborish",
+      "success": "Xabaringiz muvaffaqiyatli yuborildi!",
+      "error": "Xatolik yuz berdi. Iltimos, keyinroq urinib ko'ring."
+    },
+    "address": {
+      "title": "Manzilimiz",
+      "line": "Toshkent viloyati, Chirchiq shahri, Amir Temur ko'chasi, 10-uy",
+      "link": "Xaritadan ko'rish"
+    },
+    "phone": {
+      "title": "Aloqa"
+    },
+    "email": {
+      "title": "Elektron Pochta"
+    },
+    "building": "Asosiy Bino"
+  },
+  "gallery": {
+    "hero": {
+      "title": "Foto va Video",
+      "highlight": "Galereya",
+      "subtitle": "Maktabimiz hayotidan eng yorqin va unutilmas lahzalar to'plami."
+    },
+    "filters": {
+      "all": "Barchasi",
+      "binolar": "Binolar",
+      "talim": "Ta'lim",
+      "tadbirlar": "Tadbirlar",
+      "ustozlar": "Ustozlar",
+      "sport": "Sport"
+    },
+    "lightbox": {
+      "ariaLabel": "Rasm ko'rinishi",
+      "close": "Yopish"
+    }
+  },
+  "notFound": {
+    "title": "Sahifa topilmadi",
+    "description": "Siz izlagan sahifa mavjud emas yoki ko'chirilgan bo'lishi mumkin. Bosh sahifaga qaytib yoki menyudan foydalanib kerakli ma'lumotni topishingiz mumkin.",
+    "home": "Bosh sahifaga qaytish",
+    "contact": "Bog'lanish"
+  }
+}

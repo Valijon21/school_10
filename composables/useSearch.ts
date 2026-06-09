@@ -5,13 +5,6 @@ interface SearchPage {
   path: string
 }
 
-interface SearchItemProps {
-  title: string
-  url: string
-  description: string
-  path: string
-}
-
 const MAX_RESULTS = 8
 const FOCUS_DELAY = 200
 
@@ -34,6 +27,7 @@ function getIconClass(url: string): string {
 }
 
 export const useSearch = () => {
+  const { t } = useI18n()
   let searchIndex: SearchPage[] = []
   let modal: HTMLElement | null = null
   let input: HTMLInputElement | null = null
@@ -46,7 +40,7 @@ export const useSearch = () => {
     fetch('/search-index.json')
       .then(r => r.json())
       .then((data: SearchPage[]) => { searchIndex = data; callback() })
-      .catch(() => {})
+      .catch(e => console.error('Search index fetch failed:', e))
   }
 
   function openSearch() {
@@ -72,7 +66,7 @@ export const useSearch = () => {
     const icon = document.createElement('i')
     icon.className = 'fas fa-search'
     const p = document.createElement('p')
-    p.textContent = 'Hech narsa topilmadi'
+    p.textContent = t('common.noResults')
     empty.appendChild(icon)
     empty.appendChild(p)
     results.appendChild(empty)

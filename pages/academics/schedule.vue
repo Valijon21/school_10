@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const { t } = useI18n()
 const selectedClass = ref('5a')
 
 const scheduleData: Record<string, Array<{ time: string; mon: string; tue: string; wed: string; thu: string; fri: string; sat: string }>> = {
@@ -59,7 +60,7 @@ const scheduleData: Record<string, Array<{ time: string; mon: string; tue: strin
     { time: "12:20", mon: "Adabiyot", tue: "Huquq", wed: "Sinf soati", thu: "Tadbirkorlik", fri: "Tarbiya", sat: "Ona tili" }
   ],
   "9a": [
-    { time: "08:30", mon: "Algeba", tue: "Kimyo", wed: "Fizika", thu: "Ingliz tili", fri: "Biologiya", sat: "Tarix" },
+    { time: "08:30", mon: "Algebra", tue: "Kimyo", wed: "Fizika", thu: "Ingliz tili", fri: "Biologiya", sat: "Tarix" },
     { time: "09:25", mon: "Fizika", tue: "Algebra", wed: "Kimyo", thu: "Ona tili", fri: "Sport", sat: "Geometriya" },
     { time: "10:20", mon: "Geometriya", tue: "Informatika", wed: "Tarix", thu: "Adabiyot", fri: "Ingliz tili", sat: "Ona tili" },
     { time: "11:25", mon: "Adabiyot", tue: "Sport", wed: "Algebra", thu: "Geografiya", fri: "Rus tili", sat: "Fizika" },
@@ -103,44 +104,83 @@ const scheduleData: Record<string, Array<{ time: string; mon: string; tue: strin
 }
 
 const days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat'] as const
-const dayLabels: Record<string, string> = { mon: 'Dushanba', tue: 'Seshanba', wed: 'Chorshanba', thu: 'Payshanba', fri: 'Juma', sat: 'Shanba' }
+const dayLabels = computed(() => ({
+  mon: t('schedule.days.mon'),
+  tue: t('schedule.days.tue'),
+  wed: t('schedule.days.wed'),
+  thu: t('schedule.days.thu'),
+  fri: t('schedule.days.fri'),
+  sat: t('schedule.days.sat'),
+}))
 
 const currentSchedule = computed(() => scheduleData[selectedClass.value] || [])
 
 const classes = ['5a', '5b', '6a', '6b', '7a', '7b', '8a', '8b', '9a', '9b', '10a', '10b', '11a', '11b']
 
+function subjectLabel(key: string): string {
+  const labels: Record<string, string> = {
+    'Matematika': t('schedule.subjects.Matematika'),
+    'Ona tili': t('schedule.subjects["Ona tili"]'),
+    'Ingliz tili': t('schedule.subjects["Ingliz tili"]'),
+    'Tarix': t('schedule.subjects.Tarix'),
+    'Informatika': t('schedule.subjects.Informatika'),
+    'Adabiyot': t('schedule.subjects.Adabiyot'),
+    'Tarbiya': t('schedule.subjects.Tarbiya'),
+    'Sport': t('schedule.subjects.Sport'),
+    'Texnologiya': t('schedule.subjects.Texnologiya'),
+    'Musiqa': t('schedule.subjects.Musiqa'),
+    'Rus tili': t('schedule.subjects["Rus tili"]'),
+    'Biologiya': t('schedule.subjects.Biologiya'),
+    'Geografiya': t('schedule.subjects.Geografiya'),
+    'Sinf soati': t('schedule.subjects["Sinf soati"]'),
+    "Tasviriy san'at": t('schedule.subjects["Tasviriy san\'at"]'),
+    'Botanika': t('schedule.subjects.Botanika'),
+    'Fizika': t('schedule.subjects.Fizika'),
+    'Algebra': t('schedule.subjects.Algebra'),
+    'Geometriya': t('schedule.subjects.Geometriya'),
+    'Kimyo': t('schedule.subjects.Kimyo'),
+    'Huquq': t('schedule.subjects.Huquq'),
+    'Iqtisodiyot': t('schedule.subjects.Iqtisodiyot'),
+    'Tadbirkorlik': t('schedule.subjects.Tadbirkorlik'),
+    'Astronomiya': t('schedule.subjects.Astronomiya'),
+  }
+  return labels[key] || key
+}
+
 useHead({
-  title: 'Dars jadvali | 10-Maktab - haftalik dars vaqtlari',
+  title: computed(() => `${t('schedule.hero.title')} ${t('schedule.hero.highlight')} | 10-MAKTAB`),
   meta: [
-    { name: 'description', content: '10-maktabning dars jadvali. Qo\'ng\'iroq vaqtlari, fanlar bo\'yicha darslar tartibi va haftalik dars taqsimoti haqida ma\'lumot.' },
+    { name: 'description', content: t('schedule.hero.subtitle') },
   ],
 })
 </script>
 
 <template>
-  <main>
-    <PageHero gradient title="Dars" highlight="Jadvali" subtitle="Sinfingizni tanlang va haftalik dars jadvalingizni ko'ring." />
+  <main id="main-content">
+    <PageHero gradient :title="$t('schedule.hero.title')" :highlight="$t('schedule.hero.highlight')" :subtitle="$t('schedule.hero.subtitle')" />
 
     <section class="py-24 bg-background min-h-screen">
       <div class="container mx-auto px-6 max-w-[1240px]">
         <div class="flex flex-col md:flex-row justify-between items-center gap-8 mb-16 bg-white p-10 rounded-[3rem] shadow-2xl border border-slate-50 animate-on-scroll">
           <div class="flex flex-col sm:flex-row items-center gap-8 w-full md:w-auto">
-            <label for="class-select" class="font-black text-primary italic uppercase tracking-widest text-sm">Sinfni tanlang:</label>
+            <label for="class-select" class="font-black text-primary italic uppercase tracking-widest text-sm">{{ $t('schedule.selectLabel') }}</label>
             <div class="relative w-full sm:w-80 group">
-              <select id="class-select" v-model="selectedClass"
+              <select
+id="class-select" v-model="selectedClass"
                 class="appearance-none w-full bg-slate-50 border-2 border-slate-100 py-4 px-8 rounded-2xl font-black text-primary focus:border-secondary focus:bg-white focus:shadow-xl focus:outline-none transition-all cursor-pointer">
-                <option v-for="c in classes" :key="c" :value="c">{{ c.toUpperCase().charAt(0) + '-' + c.charAt(1).toUpperCase() }} sinf</option>
+                <option v-for="c in classes" :key="c" :value="c">{{ c.toUpperCase().charAt(0) + '-' + c.charAt(1).toUpperCase() }} {{ $t('schedule.selectLabel').replace(':', '') }}</option>
               </select>
-              <i aria-hidden="true" class="fas fa-search absolute right-8 top-1/2 -translate-y-1/2 text-secondary pointer-events-none group-hover:scale-110 transition-all"></i>
+              <i aria-hidden="true" class="fas fa-search absolute right-8 top-1/2 -translate-y-1/2 text-secondary pointer-events-none group-hover:scale-110 transition-all"/>
             </div>
           </div>
           <div class="flex gap-4 w-full md:w-auto">
-            <button @click="window.print()"
-              class="flex-1 md:flex-none flex items-center justify-center gap-4 px-10 py-4 bg-secondary text-white font-black rounded-2xl hover:bg-blue-600 hover:-translate-y-1 transition-all shadow-xl shadow-secondary/20">
-              <i aria-hidden="true" class="fas fa-print"></i> <span>Chop etish</span>
+            <button
+class="flex-1 md:flex-none flex items-center justify-center gap-4 px-10 py-4 bg-secondary text-white font-black rounded-2xl hover:bg-blue-600 hover:-translate-y-1 transition-all shadow-xl shadow-secondary/20"
+              @click="window.print()">
+              <i aria-hidden="true" class="fas fa-print"/> <span>{{ $t('schedule.print') }}</span>
             </button>
             <button class="flex items-center justify-center w-14 h-14 bg-white border-2 border-slate-100 text-slate-400 rounded-2xl hover:text-secondary hover:border-secondary transition-all">
-              <i aria-hidden="true" class="fas fa-download"></i>
+              <i aria-hidden="true" class="fas fa-download"/>
             </button>
           </div>
         </div>
@@ -150,7 +190,7 @@ useHead({
             <table class="w-full text-left border-collapse min-w-[1000px]">
               <thead>
                 <tr class="bg-slate-50 border-b-2 border-slate-100">
-                  <th class="py-6 px-8 text-xs font-black text-secondary tracking-[0.3em] uppercase italic w-[150px] text-center">Vaqt</th>
+                  <th class="py-6 px-8 text-xs font-black text-secondary tracking-[0.3em] uppercase italic w-[150px] text-center">{{ $t('schedule.time') }}</th>
                   <th v-for="d in days" :key="d" class="py-6 px-6 font-black text-primary uppercase tracking-widest text-sm italic text-center">{{ dayLabels[d] }}</th>
                 </tr>
               </thead>
@@ -161,10 +201,10 @@ useHead({
                   </td>
                   <td v-for="d in days" :key="d" class="p-4">
                     <div class="bg-white p-4 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md hover:border-secondary/30 transition-all duration-300 group">
-                      <span class="block font-bold text-primary text-[0.9rem] mb-1 group-hover:text-secondary transition-colors italic leading-tight">{{ row[d] }}</span>
+                      <span class="block font-bold text-primary text-[0.9rem] mb-1 group-hover:text-secondary transition-colors italic leading-tight">{{ subjectLabel(row[d]) }}</span>
                       <div class="flex items-center gap-1.5 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                        <span class="w-1.5 h-1.5 bg-secondary rounded-full"></span>
-                        <span class="text-[0.65rem] text-slate-500 font-bold uppercase tracking-wider">Fan darsi</span>
+                        <span class="w-1.5 h-1.5 bg-secondary rounded-full"/>
+                        <span class="text-[0.65rem] text-slate-500 font-bold uppercase tracking-wider">{{ $t('schedule.tooltip') }}</span>
                       </div>
                     </div>
                   </td>
@@ -173,7 +213,7 @@ useHead({
             </table>
           </div>
           <div class="xl:hidden p-4 bg-slate-50 text-center flex items-center justify-center gap-2 text-slate-400 text-xs font-bold animate-pulse border-t border-slate-100">
-            <i aria-hidden="true" class="fas fa-arrows-alt-h text-secondary"></i> Chapga-o'ngga suring
+            <i aria-hidden="true" class="fas fa-arrows-alt-h text-secondary"/> {{ $t('schedule.scrollHint') }}
           </div>
         </div>
       </div>

@@ -118,8 +118,8 @@ npm run preview
 
 - **Sayt:** [10-maktab.uz](https://10-maktab.uz)
 - **Email:** info@10-maktab.uz
-- **Telefon:** +998 (71) 234-56-78
-- **Manzil:** Toshkent viloyati, Chirchiq shahri
+- **Telefon:** +998 (77) 342-33-21
+- **Manzil:** Namangan viloyati, Pop tumani Sang shaharchasi
 
 ---
 

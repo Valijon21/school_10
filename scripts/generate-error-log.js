@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 const fs = require('fs');
 const path = require('path');
 
@@ -62,7 +63,7 @@ function scanSourceIssues() {
     entries.forEach(function(entry) {
       var full = path.join(dir, entry.name);
       var r = path.join(rel, entry.name);
-      if (entry.isDirectory() && entry.name !== 'node_modules' && entry.name !== 'dist' && entry.name !== '.git') {
+      if (entry.isDirectory() && entry.name !== 'node_modules' && entry.name !== 'dist' && entry.name !== '.git' && entry.name !== 'scripts' && entry.name !== '.output') {
         scanDir(full, r);
       } else if (entry.name.endsWith('.html') || entry.name.endsWith('.js')) {
         var content = read(full);

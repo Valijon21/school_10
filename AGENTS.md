@@ -58,5 +58,14 @@
 - `.html` links -> `<NuxtLink to="...">`
 - `../../assets/images/` -> `/assets/images/`
 
+## i18n
+- **Module**: `@nuxtjs/i18n` v9, strategy `no_prefix` (til cookie orqali)
+- **Locales**: `uz` (default), `ru`, `en` — `i18n/locales/`
+- **Component**: `components/LanguageSwitcher.vue` — flag dropdown
+- **Composable**: barcha sahifalarda `useI18n()` + `$t('key')` ishlatilgan
+- **Locale fayllar**: `uz.json`, `ru.json`, `en.json` — namespaces: `nav`, `actions`, `footer`, `common`, `home`, `about`, `history`, `mission`, `management`, `teachers`, `former`, `single`, `schedule`, `news`, `events`, `admission`, `contact`, `gallery`, `notFound`
+- **Konvertatsiya**: 16 ta `.vue` page + `useNavigation` + `useSearch` — barcha hardcoded matnlar `$t()` ga o'tkazildi
+
 ## Remaining
 - Teacher cards use `teacher.png` (need real photos)
+- `useData.ts` dagi teacher/news ma'lumotlari (bio, education, achievements, news content) hali faqat Uzbek tilida — UI wrapperlari `$t()` ga o'tkazilgan, lekin data obyektlarning o'zi tarjima qilinmagan

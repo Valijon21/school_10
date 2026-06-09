@@ -1,17 +1,18 @@
 <script setup lang="ts">
+const { t } = useI18n()
 const { newsList, categoryStyles } = useData()
 
 useHead({
-  title: 'Yangiliklar | 10-Maktab - so\'nggi e\'lon va xabarlar',
+  title: computed(() => `${t('news.hero.title')} ${t('news.hero.highlight')} | 10-MAKTAB`),
   meta: [
-    { name: 'description', content: '10-maktab yangiliklari: tadbirlar, e\'lonlar, sport musobaqalari va maktab hayotidan eng so\'nggi lavhalar.' },
+    { name: 'description', content: t('news.hero.subtitle') },
   ],
 })
 </script>
 
 <template>
-  <main>
-    <PageHero gradient title="So'nggi" highlight="Yangiliklar" subtitle="Maktab hayotidagi eng muhim voqealar bilan tanishing." />
+  <main id="main-content">
+    <PageHero gradient :title="$t('news.hero.title')" :highlight="$t('news.hero.highlight')" :subtitle="$t('news.hero.subtitle')" />
 
     <section class="py-24 bg-background min-h-screen">
       <div class="container mx-auto px-6 max-w-[1240px]">
@@ -21,13 +22,13 @@ useHead({
 
         <div class="flex justify-center items-center gap-4 animate-on-scroll">
           <button class="w-14 h-14 flex items-center justify-center bg-slate-50 text-slate-300 rounded-2xl font-black cursor-not-allowed border border-slate-100">
-            <i aria-hidden="true" class="fas fa-chevron-left"></i>
+            <i aria-hidden="true" class="fas fa-chevron-left"/>
           </button>
           <button class="w-14 h-14 flex items-center justify-center bg-secondary text-white rounded-2xl font-black shadow-xl shadow-secondary/20 transform scale-110">1</button>
           <button class="w-14 h-14 flex items-center justify-center bg-white text-primary rounded-2xl font-black border border-slate-100 hover:border-secondary transition-all">2</button>
           <button class="w-14 h-14 flex items-center justify-center bg-white text-primary rounded-2xl font-black border border-slate-100 hover:border-secondary transition-all">3</button>
           <button class="w-14 h-14 flex items-center justify-center bg-white text-secondary rounded-2xl font-black border border-slate-100 hover:bg-secondary hover:text-white hover:border-secondary transition-all shadow-sm">
-            <i aria-hidden="true" class="fas fa-chevron-right"></i>
+            <i aria-hidden="true" class="fas fa-chevron-right"/>
           </button>
         </div>
       </div>

@@ -25,22 +25,25 @@ const visiblePages = computed(() => {
 
 <template>
   <div v-if="totalPages > 1" class="flex justify-center items-center gap-3 animate-on-scroll">
-    <button @click="goTo(currentPage - 1)" :disabled="currentPage === 1"
-      class="w-12 h-12 flex items-center justify-center rounded-2xl font-black transition-all"
-      :class="currentPage === 1 ? 'bg-slate-50 text-slate-300 cursor-not-allowed' : 'bg-white text-primary border border-slate-100 hover:bg-secondary hover:text-white hover:border-secondary shadow-sm'">
-      <i aria-hidden="true" class="fas fa-chevron-left"></i>
+    <button
+:disabled="currentPage === 1" class="w-12 h-12 flex items-center justify-center rounded-2xl font-black transition-all"
+      :class="currentPage === 1 ? 'bg-slate-50 text-slate-300 cursor-not-allowed' : 'bg-white text-primary border border-slate-100 hover:bg-secondary hover:text-white hover:border-secondary shadow-sm'"
+      @click="goTo(currentPage - 1)">
+      <i aria-hidden="true" class="fas fa-chevron-left"/>
     </button>
     <template v-for="page in visiblePages" :key="page">
-      <button @click="goTo(page)"
-        class="w-12 h-12 flex items-center justify-center rounded-2xl font-black transition-all"
-        :class="page === currentPage ? 'bg-secondary text-white shadow-xl shadow-secondary/20 scale-110' : 'bg-white text-primary border border-slate-100 hover:border-secondary'">
+      <button
+class="w-12 h-12 flex items-center justify-center rounded-2xl font-black transition-all"
+        :class="page === currentPage ? 'bg-secondary text-white shadow-xl shadow-secondary/20 scale-110' : 'bg-white text-primary border border-slate-100 hover:border-secondary'"
+        @click="goTo(page)">
         {{ page }}
       </button>
     </template>
-    <button @click="goTo(currentPage + 1)" :disabled="currentPage === totalPages"
-      class="w-12 h-12 flex items-center justify-center rounded-2xl font-black transition-all"
-      :class="currentPage === totalPages ? 'bg-slate-50 text-slate-300 cursor-not-allowed' : 'bg-white text-primary border border-slate-100 hover:bg-secondary hover:text-white hover:border-secondary shadow-sm'">
-      <i aria-hidden="true" class="fas fa-chevron-right"></i>
+    <button
+:disabled="currentPage === totalPages" class="w-12 h-12 flex items-center justify-center rounded-2xl font-black transition-all"
+      :class="currentPage === totalPages ? 'bg-slate-50 text-slate-300 cursor-not-allowed' : 'bg-white text-primary border border-slate-100 hover:bg-secondary hover:text-white hover:border-secondary shadow-sm'"
+      @click="goTo(currentPage + 1)">
+      <i aria-hidden="true" class="fas fa-chevron-right"/>
     </button>
   </div>
 </template>

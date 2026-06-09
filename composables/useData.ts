@@ -1,3 +1,5 @@
+import { ref, shallowRef } from 'vue'
+
 export interface Teacher {
   id: number
   name: string
@@ -351,9 +353,9 @@ const CATEGORY_STYLES: Record<string, { badgeBg: string; textColor: string }> = 
 }
 
 export const useData = () => {
-  const teachersList = teachers
-  const newsList = news
-  const categoryStyles = CATEGORY_STYLES
+  const teachersList = shallowRef(teachers)
+  const newsList = shallowRef(news)
+  const categoryStyles = ref(CATEGORY_STYLES)
 
   function getTeacherById(id: number) {
     return teachers.find(t => t.id === id) || null

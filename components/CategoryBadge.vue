@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import type { NewsItem } from '~/composables/useData'
-
 const props = defineProps<{
   category: string
   styles?: Record<string, { badgeBg: string; textColor: string }>
@@ -18,7 +16,8 @@ const def = computed(() => ({
   <span v-if="variant === 'solid'" :class="`px-3 py-1 ${def.badgeBg} text-white rounded-full text-[0.6rem] font-black uppercase tracking-[0.2em] leading-none`">
     {{ category }}
   </span>
-  <span v-else-if="variant === 'glass'"
+  <span
+v-else-if="variant === 'glass'"
     :class="`px-4 py-1.5 ${def.badgeBg} backdrop-blur-md text-white rounded-full text-xs font-black uppercase tracking-widest shadow-xl`">
     {{ category }}
   </span>

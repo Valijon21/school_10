@@ -2,13 +2,7 @@ const CACHE = '10-maktab-v1';
 const URLS = [
   '/',
   '/index.html',
-  '/assets/css/main.css',
-  '/assets/js/main.js',
-  '/assets/js/data.js',
-  '/assets/js/theme.js',
-  '/assets/js/navigation.js',
-  '/assets/js/animations.js',
-  '/assets/js/logger.js'
+  '/assets/css/main.css'
 ];
 
 self.addEventListener('install', (e) => {

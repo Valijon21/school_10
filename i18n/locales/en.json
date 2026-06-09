@@ -1,0 +1,455 @@
+{
+  "site": {
+    "name": "10-SCHOOL",
+    "tagline": "School #10 — one of the leading educational institutions in Chirchiq city."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About School",
+    "aboutGeneral": "Overview",
+    "aboutHistory": "History",
+    "aboutMission": "Mission",
+    "aboutManagement": "Management",
+    "teachers": "Teachers",
+    "allTeachers": "All Teachers",
+    "formerTeachers": "Former Teachers",
+    "schedule": "Schedule",
+    "news": "News",
+    "admission": "Admissions 2026",
+    "admissionShort": "Apply"
+  },
+  "actions": {
+    "search": "Search",
+    "close": "Close",
+    "backToTop": "Back to top",
+    "toggleTheme": "Toggle theme",
+    "mobileMenu": "Mobile menu",
+    "skipToContent": "Skip to main content",
+    "searchPlaceholder": "Search across pages..."
+  },
+  "footer": {
+    "pages": "Pages",
+    "academic": "Academic",
+    "contact": "Contact",
+    "copyright": "© 2026 Public School #10. All rights reserved.",
+    "address": "Tashkent region, Chirchiq city"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "noResults": "No results found"
+  },
+  "home": {
+    "hero": {
+      "alt": "School building",
+      "title": "Build your future",
+      "highlight": "with us",
+      "subtitle": "School #10 — here we develop each student's individual abilities and prepare them for a successful future.",
+      "details": "Learn more",
+      "apply": "Apply now"
+    },
+    "stats": {
+      "students": "Students",
+      "teachers": "Teachers",
+      "achievements": "Achievements",
+      "classrooms": "Classrooms"
+    },
+    "news": {
+      "badge": "News",
+      "title": "School Life",
+      "highlight": "in pictures",
+      "viewAll": "All news"
+    },
+    "features": {
+      "badge": "About Us",
+      "title": "Why choose",
+      "highlight": "our school?",
+      "ratingTitle": "Top Rating",
+      "ratingSubtitle": "1st place in the region",
+      "tech": {
+        "title": "Modern technology",
+        "desc": "Every classroom is equipped with interactive boards and high-speed internet."
+      },
+      "teachers": {
+        "title": "Qualified teachers",
+        "desc": "Our teachers are masters of their craft who continuously improve their skills."
+      },
+      "clubs": {
+        "title": "Extracurricular activities",
+        "desc": "Over 20 free clubs in sports, arts and IT."
+      }
+    },
+    "management": {
+      "badge": "School Management",
+      "title": "Our",
+      "highlight": "leadership",
+      "linkText": "Learn more",
+      "directorBadge": "Director",
+      "directorLabel": "School Director",
+      "directorName": "Eshmatov Toshmat G'ulomovich",
+      "directorQuote": "\"Education is not preparation for life; education is life itself. Our goal is to unlock each student's inner potential and help them build a foundation for a bright future.\"",
+      "workTime": "Mon–Fri, 09:00–17:00",
+      "phone": "+998 (71) 123-45-67",
+      "viewMore": "View details",
+      "readMore": "Read more"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Our School",
+      "highlight": "General Information",
+      "subtitle": "A center of quality education and moral upbringing."
+    },
+    "badge": "Our Goal",
+    "title": "Towards the Future",
+    "highlight": "first step",
+    "p1": "School #10 was founded in 1990 and has been providing quality education to thousands of students ever since. Our school is proud of its high results and modern curriculum.",
+    "p2": "Our main goal is not only to provide knowledge but also to develop students' talents and raise them in a spirit of patriotism.",
+    "stats": {
+      "experience": "30+ years",
+      "experienceLabel": "Academic Experience",
+      "graduates": "1200+",
+      "graduatesLabel": "Successful Graduates"
+    },
+    "ranking": {
+      "label": "In the list of best schools"
+    },
+    "nav": {
+      "badge": "Navigation",
+      "title": "More Information",
+      "historyTitle": "School History",
+      "historyDesc": "Our glorious journey from past to present and our achievements.",
+      "missionTitle": "Mission & Values",
+      "missionDesc": "What we strive for, the principles we work by, and what we value.",
+      "managementTitle": "Management",
+      "managementDesc": "Our school's management team and how to contact them."
+    }
+  },
+  "history": {
+    "hero": {
+      "title": "Our School",
+      "highlight": "History",
+      "subtitle": "Our 30-year journey of success and achievements."
+    },
+    "timeline": {
+      "1990": {
+        "title": "Foundation",
+        "desc": "Our school welcomed its first students. At that time there were only 10 classrooms, and the educational process began with new methodologies."
+      },
+      "2005": {
+        "title": "New Building",
+        "desc": "A modern 3-story school building was commissioned, increasing student capacity and improving learning conditions."
+      },
+      "2015": {
+        "title": "Digital Education",
+        "desc": "All classrooms were equipped with interactive boards and computers. Our school was among the first in the region to adopt the 'Smart School' system."
+      },
+      "2024": {
+        "title": "Present Day",
+        "desc": "Currently, over 1200 students are enrolled at our school. Our graduates are studying at prestigious universities around the world."
+      }
+    }
+  },
+  "mission": {
+    "hero": {
+      "title": "Mission &",
+      "highlight": "Values",
+      "subtitle": "Our purpose and the principles we follow."
+    },
+    "badge": "Our Highest Goal",
+    "title": "Our Mission",
+    "quote": "\"To provide students not only with knowledge, but also to nurture them as independent, responsible individuals capable of meeting the demands of the modern world.\"",
+    "values": {
+      "patriotism": {
+        "title": "Patriotism",
+        "desc": "Fostering love for the Motherland and a desire to serve it in the hearts of students.",
+        "hover": "Core principle"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "desc": "Effectively using the latest technologies and methodologies in the educational process.",
+        "hover": "Digital future"
+      },
+      "cooperation": {
+        "title": "Cooperation",
+        "desc": "Establishing strong, trusting relationships between teachers, students, and parents.",
+        "hover": "Strength in unity"
+      }
+    }
+  },
+  "management": {
+    "hero": {
+      "title": "School",
+      "highlight": "Management",
+      "subtitle": "Meet our experienced and dedicated leadership team."
+    },
+    "director": {
+      "badge": "School Director",
+      "name": "Eshmatov Toshmat G'ulomovich",
+      "quote": "\"Education is not preparation for life; education is life itself. Our goal is to unlock each student's inner potential and help them build a foundation for a bright future.\"",
+      "workTime": "Office hours: Mon–Fri, 09:00–17:00",
+      "phone": "+998 (71) 123-45-67",
+      "sendMessage": "Send message"
+    },
+    "deputies": {
+      "title": "Deputy Directors",
+      "edu": {
+        "name": "Karimova Guli Baxtiyorovna",
+        "role": "Deputy Director for Academic Affairs",
+        "badge": "Academic Affairs",
+        "phone": "+998 (90) 111-22-33"
+      },
+      "spiritual": {
+        "name": "Sultonov Alisher Akmalovich",
+        "role": "Deputy Director for Spiritual Education",
+        "badge": "Spiritual Education",
+        "phone": "+998 (90) 444-55-66"
+      },
+      "economic": {
+        "name": "Nazarov Bekzod Rustamovich",
+        "role": "Deputy Director for Economic Affairs",
+        "badge": "Economic Affairs",
+        "phone": "+998 (90) 777-88-99"
+      },
+      "readMore": "Read more"
+    }
+  },
+  "teachers": {
+    "hero": {
+      "title": "Our Teachers",
+      "subtitle": "Meet the experienced and dedicated teachers of our school."
+    },
+    "search": {
+      "placeholder": "Search by name or subject..."
+    },
+    "filters": {
+      "all": "All",
+      "matematika": "Mathematics",
+      "ona-tili": "Native Language",
+      "ingliz-tili": "English",
+      "informatika": "Computer Science",
+      "tarix": "History"
+    },
+    "subjectSuffix": "teacher"
+  },
+  "former": {
+    "hero": {
+      "title": "Our",
+      "highlight": "Veterans",
+      "subtitle": "Teachers who have made a great contribution to the development of our school over many years."
+    },
+    "status": {
+      "retired": "Retired",
+      "honored": "Honored"
+    },
+    "years": "years"
+  },
+  "single": {
+    "hero": {
+      "title": "Teacher",
+      "highlight": "Profile",
+      "subtitle": "Get to know our teachers up close."
+    },
+    "viewProfile": "View profile",
+    "email": "Email",
+    "consultation": "Consultation",
+    "specialty": "Specialty:",
+    "achievements": "Achievements:",
+    "experience": "Years of experience",
+    "students": "Successful students"
+  },
+  "schedule": {
+    "hero": {
+      "title": "Class",
+      "highlight": "Schedule",
+      "subtitle": "Select your class and view the weekly schedule."
+    },
+    "selectLabel": "Select class:",
+    "print": "Print",
+    "tooltip": "Lesson",
+    "scrollHint": "Swipe left-right",
+    "time": "Time",
+    "days": {
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday",
+      "sat": "Saturday"
+    },
+    "subjects": {
+      "Matematika": "Mathematics",
+      "Ona tili": "Mother Tongue",
+      "Ingliz tili": "English",
+      "Tarix": "History",
+      "Informatika": "Computer Science",
+      "Adabiyot": "Literature",
+      "Tarbiya": "Upbringing",
+      "Sport": "PE",
+      "Texnologiya": "Technology",
+      "Musiqa": "Music",
+      "Rus tili": "Russian",
+      "Biologiya": "Biology",
+      "Geografiya": "Geography",
+      "Sinf soati": "Class Hour",
+      "Tasviriy san'at": "Fine Arts",
+      "Botanika": "Botany",
+      "Fizika": "Physics",
+      "Algebra": "Algebra",
+      "Geometriya": "Geometry",
+      "Kimyo": "Chemistry",
+      "Huquq": "Law",
+      "Iqtisodiyot": "Economics",
+      "Tadbirkorlik": "Entrepreneurship",
+      "Astronomiya": "Astronomy"
+    }
+  },
+  "news": {
+    "hero": {
+      "title": "Latest",
+      "highlight": "News",
+      "subtitle": "Stay updated with the most important events in school life."
+    },
+    "card": {
+      "details": "View details",
+      "view": "Read more"
+    },
+    "single": {
+      "share": "Share:",
+      "back": "Go back",
+      "otherNews": "Other News",
+      "viewAll": "View all"
+    }
+  },
+  "events": {
+    "hero": {
+      "title": "School",
+      "highlight": "Events",
+      "subtitle": "Discover the most interesting events held at our school."
+    },
+    "filters": {
+      "all": "All",
+      "bayram": "Holidays",
+      "sport": "Sports",
+      "madaniy": "Cultural",
+      "ilmiy": "Scientific"
+    }
+  },
+  "admission": {
+    "hero": {
+      "title": "Grade 1 Admission -",
+      "highlight": "2026/2027",
+      "subtitle": "Choose the most suitable and modern educational institution for your child's future."
+    },
+    "conditions": {
+      "title": "Admission Requirements",
+      "1": "The child must be at least 7 years old.",
+      "2": "Must have completed a full medical examination.",
+      "3": "Birth certificate (original and copy).",
+      "4": "Information about the parent's permanent residence."
+    },
+    "warning": {
+      "title": "Important Notice",
+      "text": "All documents are accepted electronically through the my.maktab.uz portal starting from July."
+    },
+    "steps": {
+      "title": "Admission Steps",
+      "1": {
+        "title": "Online Registration",
+        "desc": "Enter personal information and submit an application through the portal."
+      },
+      "2": {
+        "title": "School Interview",
+        "desc": "A short introductory meeting with a psychologist and teachers."
+      },
+      "3": {
+        "title": "Confirmation & Admission",
+        "desc": "If all documents are complete, confirmation will be sent via SMS."
+      }
+    },
+    "form": {
+      "title": "Submit Application",
+      "childName": "Child's First Name",
+      "childSurname": "Child's Last Name",
+      "dob": "Date of Birth",
+      "class": "Target Grade",
+      "parentName": "Parent's Full Name",
+      "phone": "Phone Number",
+      "email": "Email (optional)",
+      "address": "Residential Address",
+      "placeholder": {
+        "name": "First Name",
+        "surname": "Last Name",
+        "parentName": "Your full name",
+        "phone": "+998 XX XXX-XX-XX",
+        "email": "example{'@'}mail.com",
+        "address": "Full address",
+        "select": "Select..."
+      },
+      "submit": "Submit Application",
+      "success": "Your application has been successfully submitted! We will contact you shortly.",
+      "error": "An error occurred. Please try again later."
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Get in",
+      "highlight": "touch",
+      "subtitle": "If you have any questions, leave a message or call us directly."
+    },
+    "form": {
+      "title": "Send a Message",
+      "name": "Your Full Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "placeholder": {
+        "name": "Enter your name",
+        "email": "example{'@'}mail.com",
+        "message": "Write your message here..."
+      },
+      "submit": "Send Message",
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred. Please try again later."
+    },
+    "address": {
+      "title": "Our Address",
+      "line": "Tashkent region, Chirchiq city, Amir Temur street, 10",
+      "link": "View on map"
+    },
+    "phone": {
+      "title": "Phone"
+    },
+    "email": {
+      "title": "Email"
+    },
+    "building": "Main Building"
+  },
+  "gallery": {
+    "hero": {
+      "title": "Photo & Video",
+      "highlight": "Gallery",
+      "subtitle": "A collection of the brightest and most memorable moments from our school life."
+    },
+    "filters": {
+      "all": "All",
+      "binolar": "Buildings",
+      "talim": "Education",
+      "tadbirlar": "Events",
+      "ustozlar": "Teachers",
+      "sport": "Sports"
+    },
+    "lightbox": {
+      "ariaLabel": "Image view",
+      "close": "Close"
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist or has been moved. Return to the homepage or use the menu to find the information you need.",
+    "home": "Back to Home",
+    "contact": "Contact Us"
+  }
+}
