@@ -40,7 +40,7 @@ export const useSearch = () => {
     fetch('/search-index.json')
       .then(r => r.json())
       .then((data: SearchPage[]) => { searchIndex = data; callback() })
-      .catch(e => console.error('Search index fetch failed:', e))
+      .catch(() => {})
   }
 
   function openSearch() {
