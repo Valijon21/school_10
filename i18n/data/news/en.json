@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "title": "Navruz Holiday Celebrations",
+    "category": "Tadbir",
+    "date": "25 Mart, 2024",
+    "image": "building.png",
+    "content": "A large event titled \"Welcome, Navruz!\" was held at our school in celebration of the Navruz holiday. Students performed national songs and dances, and national dishes were showcased. The holiday was held in a traditional, uplifting spirit.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">A large event titled \"Welcome, Navruz!\" was held at our school in celebration of the Navruz holiday.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Students sang national songs, performed dances, and prepared samples of national dishes. A special concert program was organized for the guests.</p><blockquote class=\"my-12 p-10 md:p-14 bg-slate-50 border-l-[10px] border-secondary rounded-r-[2rem] relative\"><i class=\"fas fa-quote-left absolute top-8 left-8 text-secondary/10 text-6xl\"></i><p class=\"text-2xl font-black text-primary italic leading-relaxed relative z-10\">\"Navruz is a holiday of renewal and unity. On this day, we once again feel love and respect for one another.\"</p><cite class=\"block mt-8 text-secondary font-black not-italic uppercase tracking-widest text-sm\">— Toshmatov E.G., School Director</cite></blockquote><p class=\"text-slate-500 leading-relaxed\">At the end of the event, all participants were presented with commemorative gifts.</p>",
+    "readTime": "3 min read"
+  },
+  {
+    "id": 1,
+    "title": "Spring Break Days",
+    "category": "E'lon",
+    "date": "20 Mart, 2024",
+    "image": "students.png",
+    "content": "Attention students and parents: the 2024 spring break begins on March 21 and lasts for 7 calendar days.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Attention students and parents: the 2026 spring break schedule has been announced.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Spring break starts on March 21 and lasts for 7 calendar days. Various sports and cultural events have been organized for students during the break.</p><p class=\"text-slate-500 leading-relaxed\">Classes will resume as usual on March 28.</p>",
+    "readTime": "2 min read"
+  },
+  {
+    "id": 2,
+    "title": "New ICT Room Opened",
+    "category": "Loyihalar",
+    "date": "15 Mart, 2024",
+    "image": "library.svg",
+    "content": "A new information technology room equipped with the latest computers has been opened at our school.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">A new information technology room equipped with the latest computers has been opened at our school.</p><p class=\"text-slate-500 leading-relaxed mb-10\">The new room is equipped with 30 modern computers, an interactive whiteboard, a 3D printer, and VR devices. This allows students to gain in-depth knowledge in the IT field.</p><p class=\"text-slate-500 leading-relaxed\">The project was implemented as part of the \"Modern School\" program.</p>",
+    "readTime": "4 min read"
+  },
+  {
+    "id": 3,
+    "title": "Football Competition",
+    "category": "Sport",
+    "date": "10 Mart, 2024",
+    "image": "students.png",
+    "content": "The school championship among class teams has concluded. Winning teams were awarded commemorative gifts.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">The school championship among class teams has concluded.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Teams made up of 11th-grade students participated in the competition. After intense matches, the 11th-\"A\" class team emerged victorious.</p><p class=\"text-slate-500 leading-relaxed\">Winners and prize-winners were awarded diplomas and commemorative gifts.</p>",
+    "readTime": "3 min read"
+  },
+  {
+    "id": 4,
+    "title": "Native Language Holiday",
+    "category": "Tadbir",
+    "date": "5 Mart, 2024",
+    "image": "building.png",
+    "content": "At the creative evening held on the theme \"Language is the Wealth of the Nation,\" students showcased their talents.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">At the creative evening held on the theme \"Language is the Wealth of the Nation,\" students showcased their talents.</p><p class=\"text-slate-500 leading-relaxed mb-10\">During the evening, students read poems, performed stage scenes, and gave speeches about the beauty of their native language.</p><p class=\"text-slate-500 leading-relaxed\">The event was received with great interest by students and parents.</p>",
+    "readTime": "2 min read"
+  },
+  {
+    "id": 5,
+    "title": "Open Lessons Week",
+    "category": "E'lon",
+    "date": "1 Mart, 2024",
+    "image": "classroom.png",
+    "content": "We invite everyone interested to master classes conducted by experienced teachers.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">We invite everyone interested to master classes conducted by experienced teachers.</p><p class=\"text-slate-500 leading-relaxed mb-10\">During Open Lessons Week, each subject teacher demonstrates their best teaching methods. Modern pedagogical technologies are used in the lessons.</p><p class=\"text-slate-500 leading-relaxed\">Parents and teachers from other schools are welcome to attend the lessons.</p>",
+    "readTime": "3 min read"
+  },
+  {
+    "id": 6,
+    "title": "\"Student of the Year\" Competition Results",
+    "category": "Tadbir",
+    "date": "25 Mart, 2024",
+    "image": "students.png",
+    "content": "The final stage of determining the most active and knowledgeable student of the year was held at our school.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">The final stage of determining the most active and knowledgeable student of the year was held at our school.</p><p class=\"text-slate-500 leading-relaxed mb-10\">During the competition, students demonstrated their intellectual potential, creative abilities, and engagement in community work.</p><p class=\"text-slate-500 leading-relaxed\">Winners were awarded diplomas and valuable commemorative gifts.</p>",
+    "readTime": "4 min read"
+  },
+  {
+    "id": 7,
+    "title": "Spring Break Schedule Announced",
+    "category": "E'lon",
+    "date": "20 Mart, 2024",
+    "image": "classroom.png",
+    "content": "Attention students and parents: the spring break days and club schedule have been approved.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Attention students and parents: the spring break days and club schedule have been approved.</p><p class=\"text-slate-500 leading-relaxed mb-10\">The break lasts from March 21 to March 28. Sports and cultural events will be organized for students during the break.</p><p class=\"text-slate-500 leading-relaxed\">Classes will begin on March 29 as usual.</p>",
+    "readTime": "2 min read"
+  },
+  {
+    "id": 8,
+    "title": "School Football Championship",
+    "category": "Sport",
+    "date": "15 Mart, 2024",
+    "image": "building.png",
+    "content": "The football tournament among class teams has concluded.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">The football tournament among class teams has concluded.</p><p class=\"text-slate-500 leading-relaxed mb-10\">11 class teams participated in the tournament. After intense matches, the 11th-\"A\" class team emerged victorious.</p><p class=\"text-slate-500 leading-relaxed\">Winners and prize-winners were awarded diplomas and commemorative gifts.</p>",
+    "readTime": "3 min read"
+  },
+  {
+    "id": 9,
+    "title": "New Book Collection",
+    "category": "Loyihalar",
+    "date": "10 Mart, 2024",
+    "image": "library.svg",
+    "content": "Our library has been enriched with new literature for students.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Our library has been enriched with new literature for students.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Over 500 new books, including fiction, scientific, and educational materials, have been added to the library collection.</p><p class=\"text-slate-500 leading-relaxed\">You can browse the new books on a special shelf in the library.</p>",
+    "readTime": "2 min read"
+  },
+  {
+    "id": 10,
+    "title": "Subject Olympiads Have Begun",
+    "category": "E'lon",
+    "date": "5 Mart, 2024",
+    "image": "students.png",
+    "content": "The winners of the school stage have advanced to the district stage.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">The school stage of subject Olympiads has started.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Olympiads are being held in mathematics, physics, chemistry, biology, history, and native language.</p><p class=\"text-slate-500 leading-relaxed\">Winners will earn the right to participate in the district stage.</p>",
+    "readTime": "3 min read"
+  },
+  {
+    "id": 11,
+    "title": "Open Lessons Week",
+    "category": "Tadbir",
+    "date": "1 Mart, 2024",
+    "image": "classroom.png",
+    "content": "Experienced teachers are sharing their skills with the youth.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Experienced teachers are sharing their skills with the youth.</p><p class=\"text-slate-500 leading-relaxed mb-10\">During Open Lessons Week, the most experienced teachers demonstrate their teaching methods.</p><p class=\"text-slate-500 leading-relaxed\">Modern pedagogical technologies are used in the lessons.</p>",
+    "readTime": "3 min read"
+  },
+  {
+    "id": 12,
+    "title": "Chess Tournament",
+    "category": "Sport",
+    "date": "25 Fevral, 2024",
+    "image": "building.png",
+    "content": "An exciting chess competition was held among our school's students.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">An exciting chess competition was held among our school's students.</p><p class=\"text-slate-500 leading-relaxed mb-10\">More than 30 students participated in the tournament. The games were conducted using the Swiss system.</p><p class=\"text-slate-500 leading-relaxed\">Special gifts were awarded to the winners.</p>",
+    "readTime": "2 min read"
+  },
+  {
+    "id": 13,
+    "title": "International Cooperation Memorandum",
+    "category": "Loyihalar",
+    "date": "20 Fevral, 2024",
+    "image": "library.svg",
+    "content": "Our school has joined international projects to improve the quality of education.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Our school has joined international projects to improve the quality of education.</p><p class=\"text-slate-500 leading-relaxed mb-10\">A memorandum of cooperation was signed with foreign educational institutions.</p><p class=\"text-slate-500 leading-relaxed\">This partnership will create new opportunities for our students.</p>",
+    "readTime": "4 min read"
+  },
+  {
+    "id": 14,
+    "title": "Parent-Teacher Meeting Scheduled",
+    "category": "E'lon",
+    "date": "15 Fevral, 2024",
+    "image": "students.png",
+    "content": "A parent-teacher meeting will be held regarding the upcoming quarter results.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">A parent-teacher meeting will be held regarding the upcoming quarter results.</p><p class=\"text-slate-500 leading-relaxed mb-10\">The meeting will discuss student academic performance indicators and plans for the new quarter.</p><p class=\"text-slate-500 leading-relaxed\">All parents are invited.</p>",
+    "readTime": "2 min read"
+  },
+  {
+    "id": 15,
+    "title": "Reading Competition Winners",
+    "category": "Tadbir",
+    "date": "10 Fevral, 2024",
+    "image": "classroom.png",
+    "content": "Our students who read the most books were recognized by the school administration.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Our students who read the most books were recognized by the school administration.</p><p class=\"text-slate-500 leading-relaxed mb-10\">The reading competition took place over 3 months. The most active students were rewarded with special diplomas and gifts.</p><p class=\"text-slate-500 leading-relaxed\">The school library published a list of students who read the most books.</p>",
+    "readTime": "3 min read"
+  },
+  {
+    "id": 16,
+    "title": "Basketball Competition",
+    "category": "Sport",
+    "date": "5 Fevral, 2024",
+    "image": "building.png",
+    "content": "An inter-class basketball tournament will start in the coming days.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">An inter-class basketball tournament will start in the coming days.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Senior students will participate in the tournament. The competition will be held using the Olympic system.</p><p class=\"text-slate-500 leading-relaxed\">Qualifying games will begin at the end of the week.</p>",
+    "readTime": "2 min read"
+  },
+  {
+    "id": 17,
+    "title": "New STEM Laboratory",
+    "category": "Loyihalar",
+    "date": "1 Fevral, 2024",
+    "image": "library.svg",
+    "content": "A modern STEM laboratory has begun its operation at our school.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">A modern STEM laboratory has begun its operation at our school.</p><p class=\"text-slate-500 leading-relaxed mb-10\">The laboratory is equipped with modern equipment in the fields of robotics, 3D modeling, and programming.</p><p class=\"text-slate-500 leading-relaxed\">Students can use the laboratory free of charge.</p>",
+    "readTime": "3 min read"
+  },
+  {
+    "id": 18,
+    "title": "Defenders of the Motherland Day",
+    "category": "E'lon",
+    "date": "25 Yanvar, 2024",
+    "image": "students.png",
+    "content": "A festive event was held in honor of January 14 – Defenders of the Motherland Day.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">A festive event was held in honor of January 14 – Defenders of the Motherland Day.</p><p class=\"text-slate-500 leading-relaxed mb-10\">At the event, students read poems and performed military-patriotic songs.</p><p class=\"text-slate-500 leading-relaxed\">A meeting with veterans was organized.</p>",
+    "readTime": "2 min read"
+  },
+  {
+    "id": 19,
+    "title": "Zakovat Games",
+    "category": "Tadbir",
+    "date": "20 Yanvar, 2024",
+    "image": "classroom.png",
+    "content": "Another inter-class round was held as part of the Zakovat intellectual game.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Another inter-class round was held as part of the Zakovat intellectual game.</p><p class=\"text-slate-500 leading-relaxed mb-10\">5 students from each class participated. Questions were based on the school curriculum and general knowledge.</p><p class=\"text-slate-500 leading-relaxed\">The game was intense and engaging.</p>",
+    "readTime": "3 min read"
+  },
+  {
+    "id": 20,
+    "title": "Athletics Winners",
+    "category": "Sport",
+    "date": "15 Yanvar, 2024",
+    "image": "building.png",
+    "content": "Our students stepped onto the podium at the regional stage.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Our students stepped onto the podium at the regional stage.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Our students won 3 gold, 2 silver, and 1 bronze medal at the regional athletics competition.</p><p class=\"text-slate-500 leading-relaxed\">The school administration congratulated the winners.</p>",
+    "readTime": "2 min read"
+  },
+  {
+    "id": 21,
+    "title": "School Library Modernization",
+    "category": "Loyihalar",
+    "date": "10 Yanvar, 2024",
+    "image": "library.svg",
+    "content": "A new system to expand the e-book database has been launched.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">A new system to expand the e-book database has been launched.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Over 1,000 e-books are available in the library, and students can read them through a special platform.</p><p class=\"text-slate-500 leading-relaxed\">The modern library system will make the learning process even more effective.</p>",
+    "readTime": "3 min read"
+  },
+  {
+    "id": 22,
+    "title": "New Successes in the New Year",
+    "category": "E'lon",
+    "date": "5 Yanvar, 2024",
+    "image": "students.png",
+    "content": "The head of our school congratulated students on the new academic year.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">The head of our school congratulated students on the new academic year.</p><p class=\"text-slate-500 leading-relaxed mb-10\">In the new year, students were wished success in striving towards great goals and acquiring knowledge.</p><p class=\"text-slate-500 leading-relaxed\">The most active students were recognized at the ceremonial event.</p>",
+    "readTime": "2 min read"
+  },
+  {
+    "id": 23,
+    "title": "New Year Celebration Event",
+    "category": "Tadbir",
+    "date": "1 Yanvar, 2024",
+    "image": "classroom.png",
+    "content": "An unforgettable holiday program was held with the participation of all school students.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">An unforgettable holiday program was held with the participation of all school students.</p><p class=\"text-slate-500 leading-relaxed mb-10\">In honor of the New Year, a large concert program, fun games, and competitions were organized.</p><p class=\"text-slate-500 leading-relaxed\">At the end of the event, all students were presented with commemorative gifts.</p>",
+    "readTime": "3 min read"
+  }
+]

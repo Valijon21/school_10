@@ -313,6 +313,12 @@
       "highlight": "Yangiliklar",
       "subtitle": "Maktab hayotidagi eng muhim voqealar bilan tanishing."
     },
+    "categories": {
+      "Tadbir": "Tadbir",
+      "E'lon": "E'lon",
+      "Sport": "Sport",
+      "Loyihalar": "Loyihalar"
+    },
     "card": {
       "details": "Batafsil ma'lumot",
       "view": "Batafsil ko'rish"

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "title": "Navro'z bayrami tantanalari",
+    "category": "Tadbir",
+    "date": "25 Mart, 2024",
+    "image": "building.png",
+    "content": "Maktabimizda Navro'z umumxalq bayrami munosabati bilan \"Xush kelding, Navro'z!\" deb nomlangan katta tadbir o'tkazildi. Tadbirda o'quvchilar milliy qo'shiq va raqslar ijro etdilar, milliy taomlar namoyish etildi. Bayram an'anaviy tarzda ko'tarinki ruhda o'tdi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Maktabimizda Navro'z umumxalq bayrami munosabati bilan \"Xush kelding, Navro'z!\" deb nomlangan katta tadbir o'tkazildi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Tadbirda o'quvchilar milliy qo'shiqlar kuylashdi, raqslar ijro etishdi va milliy taomlardan namunalar tayyorlashdi. Mehmonlar uchun maxsus konsert dasturi tashkil etildi.</p><blockquote class=\"my-12 p-10 md:p-14 bg-slate-50 border-l-[10px] border-secondary rounded-r-[2rem] relative\"><i class=\"fas fa-quote-left absolute top-8 left-8 text-secondary/10 text-6xl\"></i><p class=\"text-2xl font-black text-primary italic leading-relaxed relative z-10\">\"Navro'z - bu yangilanish va birlik bayrami. Biz bu kuni bir-birimizga mehr-muhabbat va hurmatni yana bir bor his qilamiz.\"</p><cite class=\"block mt-8 text-secondary font-black not-italic uppercase tracking-widest text-sm\">— Toshmatov E.G., Maktab direktori</cite></blockquote><p class=\"text-slate-500 leading-relaxed\">Tadbir so'ngida barcha ishtirokchilarga esdalik sovg'alari topshirildi.</p>",
+    "readTime": "3 daqiqa o'qiladi"
+  },
+  {
+    "id": 1,
+    "title": "Bahorgi ta'til kunlari",
+    "category": "E'lon",
+    "date": "20 Mart, 2024",
+    "image": "students.png",
+    "content": "O'quvchilar va ota-onalar diqqatiga: 2024-yilgi bahorgi ta'til 21-martdan boshlanib, 7 kalendar kun davom etadi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">O'quvchilar va ota-onalar diqqatiga: 2026-yilgi bahorgi ta'til jadvali e'lon qilindi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Bahorgi ta'til 21-martdan boshlanib, 7 kalendar kun davom etadi. Ta'til davomida o'quvchilar uchun turli xil sport va madaniy tadbirlar tashkil etilgan.</p><p class=\"text-slate-500 leading-relaxed\">Darslar 28-martdan boshlab odatdagi tartibda davom etadi.</p>",
+    "readTime": "2 daqiqa o'qiladi"
+  },
+  {
+    "id": 2,
+    "title": "Yangi AKT xonasi ochildi",
+    "category": "Loyihalar",
+    "date": "15 Mart, 2024",
+    "image": "library.svg",
+    "content": "Maktabimizda eng zamonaviy kompyuterlar bilan jihozlangan yangi axborot texnologiyalari xonasi foydalanishga topshirildi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Maktabimizda eng zamonaviy kompyuterlar bilan jihozlangan yangi axborot texnologiyalari xonasi foydalanishga topshirildi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Yangi xona 30 ta zamonaviy kompyuter, interaktiv doska, 3D printer va VR qurilmalari bilan jihozlangan. Bu o'quvchilarga IT sohasida chuqur bilim olish imkonini beradi.</p><p class=\"text-slate-500 leading-relaxed\">Loyiha \"Zamonaviy maktab\" dasturi doirasida amalga oshirildi.</p>",
+    "readTime": "4 daqiqa o'qiladi"
+  },
+  {
+    "id": 3,
+    "title": "Futbol musobaqasi",
+    "category": "Sport",
+    "date": "10 Mart, 2024",
+    "image": "students.png",
+    "content": "Sinf jamoalari o'rtasida maktab birinchiligi yakunlandi. G'olib jamoalar esdalik sovg'alari bilan taqdirlandi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Sinf jamoalari o'rtasida maktab birinchiligi yakunlandi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Musobaqada 11-sinflardan tashkil topgan jamoalar ishtirok etishdi. Qizg'in bellashuvlardan so'ng 11-\"A\" sinf jamoasi g'oliblikni qo'lga kiritdi.</p><p class=\"text-slate-500 leading-relaxed\">G'olib va sovrindor jamoalar diplom va esdalik sovg'alari bilan taqdirlandi.</p>",
+    "readTime": "3 daqiqa o'qiladi"
+  },
+  {
+    "id": 4,
+    "title": "Ona tili bayrami",
+    "category": "Tadbir",
+    "date": "5 Mart, 2024",
+    "image": "building.png",
+    "content": "\"Til - millat boyligi\" mavzusida o'tkazilgan ijodiy kechada o'quvchilar o'z mahoratlarini namoyish etdilar.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">\"Til - millat boyligi\" mavzusida o'tkazilgan ijodiy kechada o'quvchilar o'z mahoratlarini namoyish etdilar.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Kechada o'quvchilar she'rlar o'qishdi, sahna ko'rinishlari namoyish etishdi va ona tilining go'zalligi haqida chiqishlar qilishdi.</p><p class=\"text-slate-500 leading-relaxed\">Tadbir maktab o'quvchilari va ota-onalar tomonidan katta qiziqish bilan kutib olindi.</p>",
+    "readTime": "2 daqiqa o'qiladi"
+  },
+  {
+    "id": 5,
+    "title": "Ochiq darslar haftaligi",
+    "category": "E'lon",
+    "date": "1 Mart, 2024",
+    "image": "classroom.png",
+    "content": "Tajribali o'qituvchilar tomonidan o'tkazilayotgan mahorat darslariga barcha xohlovchilarni taklif etamiz.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Tajribali o'qituvchilar tomonidan o'tkazilayotgan mahorat darslariga barcha xohlovchilarni taklif etamiz.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Ochiq darslar haftaligida har bir fan o'qituvchisi o'zining eng yaxshi dars usullarini namoyish etadi. Darslarda zamonaviy pedagogik texnologiyalardan foydalaniladi.</p><p class=\"text-slate-500 leading-relaxed\">Ota-onalar va boshqa maktab o'qituvchilari darslarda ishtirok etishlari mumkin.</p>",
+    "readTime": "3 daqiqa o'qiladi"
+  },
+  {
+    "id": 6,
+    "title": "\"Yil o'quvchisi\" tanlovi yakunlari",
+    "category": "Tadbir",
+    "date": "25 Mart, 2024",
+    "image": "students.png",
+    "content": "Maktabimizda yilning eng faol va bilimli o'quvchisini aniqlash bo'yicha yakuniy bosqich bo'lib o'tdi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Maktabimizda yilning eng faol va bilimli o'quvchisini aniqlash bo'yicha yakuniy bosqich bo'lib o'tdi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Tanlov davomida o'quvchilar o'zlarining intellektual salohiyati, ijodiy qobiliyatlari va jamoat ishlaridagi faolliklarini namoyish etishdi.</p><p class=\"text-slate-500 leading-relaxed\">G'oliblar diplom va qimmatbaho esdalik sovg'alari bilan taqdirlandi.</p>",
+    "readTime": "4 daqiqa o'qiladi"
+  },
+  {
+    "id": 7,
+    "title": "Bahorgi ta'til grafigi e'lon qilindi",
+    "category": "E'lon",
+    "date": "20 Mart, 2024",
+    "image": "classroom.png",
+    "content": "O'quvchilar va ota-onalar diqqatiga: bahorgi ta'til kunlari va to'garaklar jadvali tasdiqlandi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">O'quvchilar va ota-onalar diqqatiga: bahorgi ta'til kunlari va to'garaklar jadvali tasdiqlandi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Ta'til 21-martdan 28-martga qadar davom etadi. Ta'til davomida o'quvchilar uchun sport va madaniy tadbirlar tashkil etiladi.</p><p class=\"text-slate-500 leading-relaxed\">Darslar 29-mart kuni odatdagi tartibda boshlanadi.</p>",
+    "readTime": "2 daqiqa o'qiladi"
+  },
+  {
+    "id": 8,
+    "title": "Futbol bo'yicha maktab birinchiligi",
+    "category": "Sport",
+    "date": "15 Mart, 2024",
+    "image": "building.png",
+    "content": "Sinf jamoalari o'rtasida o'tkazilgan futbol turniri yakunlandi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Sinf jamoalari o'rtasida o'tkazilgan futbol turniri yakunlandi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Turnirda 11 ta sinf jamoasi ishtirok etdi. Qizg'in bellashuvlardan so'ng 11-\"A\" sinf jamoasi g'oliblikni qo'lga kiritdi.</p><p class=\"text-slate-500 leading-relaxed\">G'olib va sovrindorlar diplom va esdalik sovg'alari bilan taqdirlandi.</p>",
+    "readTime": "3 daqiqa o'qiladi"
+  },
+  {
+    "id": 9,
+    "title": "Yangi kitoblar jamlanmasi",
+    "category": "Loyihalar",
+    "date": "10 Mart, 2024",
+    "image": "library.svg",
+    "content": "Kutubxonamiz o'quvchilar uchun yangi adabiyotlar bilan boyitildi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Kutubxonamiz o'quvchilar uchun yangi adabiyotlar bilan boyitildi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">500 dan ortiq yangi kitoblar, jumladan, badiiy, ilmiy va o'quv qo'llanmalari kutubxona fondiga qo'shildi.</p><p class=\"text-slate-500 leading-relaxed\">Yangi kitoblar bilan kutubxonaning maxsus javonida tanishishingiz mumkin.</p>",
+    "readTime": "2 daqiqa o'qiladi"
+  },
+  {
+    "id": 10,
+    "title": "Fan olimpiadalari boshlandi",
+    "category": "E'lon",
+    "date": "5 Mart, 2024",
+    "image": "students.png",
+    "content": "Maktab bosqichi g'oliblari tuman bosqichiga yo'l olishdi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Fan olimpiadalarining maktab bosqichi start oldi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Matematika, fizika, kimyo, biologiya, tarix va ona tili fanlaridan olimpiadalar o'tkazilmoqda.</p><p class=\"text-slate-500 leading-relaxed\">G'oliblar tuman bosqichida ishtirok etish huquqini qo'lga kiritadilar.</p>",
+    "readTime": "3 daqiqa o'qiladi"
+  },
+  {
+    "id": 11,
+    "title": "Ochiq darslar haftaligi",
+    "category": "Tadbir",
+    "date": "1 Mart, 2024",
+    "image": "classroom.png",
+    "content": "Tajribali ustozlar o'z mahoratlarini yoshlarga ulashishmoqda.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Tajribali ustozlar o'z mahoratlarini yoshlarga ulashishmoqda.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Ochiq darslar haftaligida eng tajribali o'qituvchilar o'z dars usullarini namoyish etadilar.</p><p class=\"text-slate-500 leading-relaxed\">Darslarda zamonaviy pedagogik texnologiyalardan foydalaniladi.</p>",
+    "readTime": "3 daqiqa o'qiladi"
+  },
+  {
+    "id": 12,
+    "title": "Shaxmat bo'yicha turnir",
+    "category": "Sport",
+    "date": "25 Fevral, 2024",
+    "image": "building.png",
+    "content": "Maktabimiz o'quvchilari o'rtasida shaxmat bo'yicha qiziqarli musobaqa bo'lib o'tdi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Maktabimiz o'quvchilari o'rtasida shaxmat bo'yicha qiziqarli musobaqa bo'lib o'tdi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Turnirda 30 dan ortiq o'quvchi ishtirok etdi. O'yinlar shveysariya tizimi asosida o'tkazildi.</p><p class=\"text-slate-500 leading-relaxed\">G'oliblarga maxsus sovg'alar topshirildi.</p>",
+    "readTime": "2 daqiqa o'qiladi"
+  },
+  {
+    "id": 13,
+    "title": "Xalqaro hamkorlik memorandumi",
+    "category": "Loyihalar",
+    "date": "20 Fevral, 2024",
+    "image": "library.svg",
+    "content": "Maktabimiz ta'lim sifatini oshirish maqsadida xalqaro loyihalarga qo'shildi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Maktabimiz ta'lim sifatini oshirish maqsadida xalqaro loyihalarga qo'shildi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Xorijiy ta'lim muassasalari bilan hamkorlik memorandumi imzolandi.</p><p class=\"text-slate-500 leading-relaxed\">Ushbu hamkorlik o'quvchilarimizga yangi imkoniyatlar yaratadi.</p>",
+    "readTime": "4 daqiqa o'qiladi"
+  },
+  {
+    "id": 14,
+    "title": "Ota-onalar majlisi o'tkaziladi",
+    "category": "E'lon",
+    "date": "15 Fevral, 2024",
+    "image": "students.png",
+    "content": "Yaqinlashib kelayotgan chorak yakunlari bo'yicha ota-onalar majlisi bo'lib o'tadi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Yaqinlashib kelayotgan chorak yakunlari bo'yicha ota-onalar majlisi bo'lib o'tadi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Majlisda o'quvchilarning o'zlashtirish ko'rsatkichlari va yangi chorak rejalari muhokama qilinadi.</p><p class=\"text-slate-500 leading-relaxed\">Barcha ota-onalar taklif etiladi.</p>",
+    "readTime": "2 daqiqa o'qiladi"
+  },
+  {
+    "id": 15,
+    "title": "Kitobxonlik tanlovi g'oliblari",
+    "category": "Tadbir",
+    "date": "10 Fevral, 2024",
+    "image": "classroom.png",
+    "content": "Eng ko'p kitob o'qigan o'quvchilarimiz maktab rahbariyati tomonidan taqdirlandi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Eng ko'p kitob o'qigan o'quvchilarimiz maktab rahbariyati tomonidan taqdirlandi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Kitobxonlik tanlovi 3 oy davomida bo'lib o'tdi. Eng faol o'quvchilar maxsus diplom va sovg'alar bilan rag'batlantirildi.</p><p class=\"text-slate-500 leading-relaxed\">Maktab kutubxonasi eng ko'p kitob o'qigan o'quvchilar ro'yxatini e'lon qildi.</p>",
+    "readTime": "3 daqiqa o'qiladi"
+  },
+  {
+    "id": 16,
+    "title": "Basketbol bo'yicha musobaqa",
+    "category": "Sport",
+    "date": "5 Fevral, 2024",
+    "image": "building.png",
+    "content": "Yaqin kunlarda sinflararo basketbol turniri start oladi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Yaqin kunlarda sinflararo basketbol turniri start oladi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Turnirda yuqori sinf o'quvchilari ishtirok etishadi. Musobaqa olimpiya tizimi asosida o'tkaziladi.</p><p class=\"text-slate-500 leading-relaxed\">Saralash o'yinlari hafta oxirida boshlanadi.</p>",
+    "readTime": "2 daqiqa o'qiladi"
+  },
+  {
+    "id": 17,
+    "title": "Yangi STEM laboratoriyasi",
+    "category": "Loyihalar",
+    "date": "1 Fevral, 2024",
+    "image": "library.svg",
+    "content": "Maktabimizda zamonaviy STEM laboratoriyasi o'z faoliyatini boshladi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Maktabimizda zamonaviy STEM laboratoriyasi o'z faoliyatini boshladi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Laboratoriya robototexnika, 3D modellashtirish va dasturlash yo'nalishlarida zamonaviy jihozlar bilan ta'minlangan.</p><p class=\"text-slate-500 leading-relaxed\">O'quvchilar laboratoriyada bepul shug'ullanishlari mumkin.</p>",
+    "readTime": "3 daqiqa o'qiladi"
+  },
+  {
+    "id": 18,
+    "title": "Vatan himoyachilari kuni",
+    "category": "E'lon",
+    "date": "25 Yanvar, 2024",
+    "image": "students.png",
+    "content": "14-yanvar – Vatan himoyachilari kuni munosabati bilan bayram tadbiri o'tkazildi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">14-yanvar – Vatan himoyachilari kuni munosabati bilan bayram tadbiri o'tkazildi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Tadbirda o'quvchilar she'rlar o'qishdi, harbiy-vatanparvarlik qo'shiqlarini ijro etishdi.</p><p class=\"text-slate-500 leading-relaxed\">Faxriylar bilan uchrashuv tashkil etildi.</p>",
+    "readTime": "2 daqiqa o'qiladi"
+  },
+  {
+    "id": 19,
+    "title": "Zakovat o'yinlari",
+    "category": "Tadbir",
+    "date": "20 Yanvar, 2024",
+    "image": "classroom.png",
+    "content": "Zakovat intellektual o'yini doirasida sinflararo navbatdagi bahs bo'lib o'tdi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Zakovat intellektual o'yini doirasida sinflararo navbatdagi bahs bo'lib o'tdi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Har bir sinfdan 5 nafardan o'quvchi ishtirok etdi. Savollar maktab o'quv dasturi va umumiy bilimlar asosida tuzilgan.</p><p class=\"text-slate-500 leading-relaxed\">O'yin qizg'in va qiziqarli tarzda o'tdi.</p>",
+    "readTime": "3 daqiqa o'qiladi"
+  },
+  {
+    "id": 20,
+    "title": "Yengil atletika bo'yicha g'oliblar",
+    "category": "Sport",
+    "date": "15 Yanvar, 2024",
+    "image": "building.png",
+    "content": "Viloyat bosqichida o'quvchilarimiz shohsupaga ko'tarildi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Viloyat bosqichida o'quvchilarimiz shohsupaga ko'tarildi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">O'quvchilarimiz yengil atletika bo'yicha viloyat musobaqasida 3 ta oltin, 2 ta kumush va 1 ta bronza medalini qo'lga kiritdi.</p><p class=\"text-slate-500 leading-relaxed\">G'oliblarni maktab rahbariyati tabrikladi.</p>",
+    "readTime": "2 daqiqa o'qiladi"
+  },
+  {
+    "id": 21,
+    "title": "Maktab kutubxonasi modernizatsiyasi",
+    "category": "Loyihalar",
+    "date": "10 Yanvar, 2024",
+    "image": "library.svg",
+    "content": "Elektron kitoblar bazasini kengaytirish bo'yicha yangi tizim yo'lga qo'yildi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Elektron kitoblar bazasini kengaytirish bo'yicha yangi tizim yo'lga qo'yildi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Kutubxonada 1000 dan ortiq elektron kitoblar mavjud bo'lib, o'quvchilar ularni maxsus platforma orqali o'qishlari mumkin.</p><p class=\"text-slate-500 leading-relaxed\">Zamonaviy kutubxona tizimi o'quv jarayonini yanada samarali qiladi.</p>",
+    "readTime": "3 daqiqa o'qiladi"
+  },
+  {
+    "id": 22,
+    "title": "Yangi yilda yangi muvaffaqiyatlar",
+    "category": "E'lon",
+    "date": "5 Yanvar, 2024",
+    "image": "students.png",
+    "content": "Maktabimiz rahbari o'quvchilarni yangi o'quv yili bilan tabrikladi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Maktabimiz rahbari o'quvchilarni yangi o'quv yili bilan tabrikladi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Yangi yilda o'quvchilarga katta maqsadlar sari intilish va bilim olishda muvaffaqiyatlar tilandi.</p><p class=\"text-slate-500 leading-relaxed\">Tantanali tadbirda eng faol o'quvchilar taqdirlandi.</p>",
+    "readTime": "2 daqiqa o'qiladi"
+  },
+  {
+    "id": 23,
+    "title": "Yangi yil bayram tadbiri",
+    "category": "Tadbir",
+    "date": "1 Yanvar, 2024",
+    "image": "classroom.png",
+    "content": "Barcha maktab o'quvchilari ishtirokida unutilmas bayram dasturi o'tkazildi.",
+    "fullContent": "<p class=\"text-xl text-slate-600 leading-[1.8] font-medium mb-10\">Barcha maktab o'quvchilari ishtirokida unutilmas bayram dasturi o'tkazildi.</p><p class=\"text-slate-500 leading-relaxed mb-10\">Yangi yil bayrami munosabati bilan katta konsert dasturi, qiziqarli o'yinlar va musobaqalar tashkil etildi.</p><p class=\"text-slate-500 leading-relaxed\">Tadbir so'ngida barcha o'quvchilarga esdalik sovg'alari topshirildi.</p>",
+    "readTime": "3 daqiqa o'qiladi"
+  }
+]

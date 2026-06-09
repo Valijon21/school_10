@@ -313,6 +313,12 @@
       "highlight": "News",
       "subtitle": "Stay updated with the most important events in school life."
     },
+    "categories": {
+      "Tadbir": "Event",
+      "E'lon": "Announcement",
+      "Sport": "Sport",
+      "Loyihalar": "Projects"
+    },
     "card": {
       "details": "View details",
       "view": "Read more"
