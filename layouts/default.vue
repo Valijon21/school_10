@@ -109,6 +109,9 @@ to="/admission/admission"
         </div>
       </div>
 
+    </header>
+
+    <Teleport to="body">
       <div id="search-modal" class="search-modal" role="dialog" aria-modal="true" :aria-label="t('actions.search')">
         <button id="search-close" class="search-close" :aria-label="t('actions.close')"><i aria-hidden="true" class="fas fa-times"/></button>
         <div class="search-modal-inner">
@@ -120,7 +123,7 @@ to="/admission/admission"
           <div id="search-results" class="search-results"/>
         </div>
       </div>
-    </header>
+    </Teleport>
 
     <slot />
 
